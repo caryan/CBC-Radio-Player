@@ -1,7 +1,7 @@
-Ext.define('Sencha.view.FavouritesList',{
+Ext.define('CBCRadioPlayer.view.FavouritesList',{
   extend: 'Ext.List',
   xtype: 'favouriteslist',
-  requires: ['Sencha.store.Favourites'],
+  requires: ['CBCRadioPlayer.store.Favourites'],
   
   config: {
   	title: 'Favourites',

@@ -1,7 +1,7 @@
-Ext.define('Sencha.view.PodCastList',{
+Ext.define('CBCRadioPlayer.view.PodCastList',{
   extend: 'Ext.List',
   xtype: 'podcastlist',
-  requires: ['Sencha.store.PodCasts'],
+  requires: ['CBCRadioPlayer.store.PodCasts'],
   
   config: {
   	title: 'PodCasts',

@@ -1,7 +1,7 @@
 Ext.define('PodCastsView',  {
 	extend: 'Ext.navigation.View',
 	xtype: 'podcastsviewer',
-	requires: ['Sencha.view.PodCastList', 'Sencha.view.PodCastDetailList'],
+	requires: ['CBCRadioPlayer.view.PodCastList', 'CBCRadioPlayer.view.PodCastDetailList'],
 	
 	config: {
 		items: [{
@@ -11,10 +11,10 @@ Ext.define('PodCastsView',  {
 });
 
 
-Ext.define('Sencha.view.Main', {
+Ext.define('CBCRadioPlayer.view.Main', {
     extend: 'Ext.TabPanel', 
     xtype: 'mainpanel',
-    requires: ['Sencha.view.LocalStationList', 'Sencha.view.FavouritesList'],
+    requires: ['CBCRadioPlayer.view.LocalStationList', 'CBCRadioPlayer.view.FavouritesList'],
 
     config: {
     	fullscreen: true,

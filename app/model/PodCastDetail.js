@@ -1,4 +1,4 @@
-Ext.define('Sencha.model.PodCastDetail', {
+Ext.define('CBCRadioPlayer.model.PodCastDetail', {
     extend: 'Ext.data.Model',
     config: {
         fields: ['title', 'link', 'author', 'content', 'publishedDate']

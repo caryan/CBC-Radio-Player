@@ -1,10 +1,10 @@
-Ext.define('Sencha.store.PodCastDetails', {
+Ext.define('CBCRadioPlayer.store.PodCastDetails', {
     extend: 'Ext.data.Store',
     xtype: 'podcastdetails',
-    requires: ['Sencha.model.PodCastDetail','Ext.data.proxy.JsonP'],
+    requires: ['CBCRadioPlayer.model.PodCastDetail','Ext.data.proxy.JsonP'],
     
     config: {
-        model: 'Sencha.model.PodCastDetail',
+        model: 'CBCRadioPlayer.model.PodCastDetail',
         autoLoad: true,
         }
 });

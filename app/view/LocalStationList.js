@@ -1,7 +1,7 @@
-Ext.define('Sencha.view.LocalStationList',{
+Ext.define('CBCRadioPlayer.view.LocalStationList',{
   extend: 'Ext.List',
   xtype: 'localstationlist',
-  requires: 'Sencha.store.LocalStations',
+  requires: 'CBCRadioPlayer.store.LocalStations',
   
   config: {
   	title: 'Local Stations',

@@ -1,9 +1,9 @@
-Ext.define('Sencha.store.LocalStations', {
+Ext.define('CBCRadioPlayer.store.LocalStations', {
     extend: 'Ext.data.Store',
-    requires: 'Sencha.model.LocalStation',
+    requires: 'CBCRadioPlayer.model.LocalStation',
     
     config: {
-        model: 'Sencha.model.LocalStation',
+        model: 'CBCRadioPlayer.model.LocalStation',
         sorters: 'cityName',
         autoLoad: true,
         proxy: {

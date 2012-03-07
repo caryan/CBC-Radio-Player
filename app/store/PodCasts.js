@@ -1,9 +1,9 @@
-Ext.define('Sencha.store.PodCasts', {
+Ext.define('CBCRadioPlayer.store.PodCasts', {
     extend: 'Ext.data.Store',
-    requires: 'Sencha.model.PodCast',
+    requires: 'CBCRadioPlayer.model.PodCast',
     
     config: {
-        model: 'Sencha.model.PodCast',
+        model: 'CBCRadioPlayer.model.PodCast',
         sorters: 'title',
         autoLoad: true,
         proxy: {

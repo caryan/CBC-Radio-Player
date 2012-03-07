@@ -1,4 +1,4 @@
-Ext.define('Sencha.view.CurrentlyPlaying', {
+Ext.define('CBCRadioPlayer.view.CurrentlyPlaying', {
 	extend: 'Ext.Container',
     layout: 'vbox',
     xtype: 'playercont',

@@ -1,5 +1,5 @@
 Ext.application({
-    name: 'Sencha',
+    name: 'CBCRadioPlayer',
 
     controllers: ['Main'],
     views: ['Main', 'CurrentlyPlaying', 'LocalStationList', 'PodCastList', 'PodCastDetailList'],

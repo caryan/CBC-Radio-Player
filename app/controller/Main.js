@@ -1,4 +1,4 @@
-Ext.define('Sencha.controller.Main', {
+Ext.define('CBCRadioPlayer.controller.Main', {
     extend: 'Ext.app.Controller',
 
     config: {
