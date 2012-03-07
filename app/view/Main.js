@@ -27,17 +27,17 @@ Ext.define('Sencha.view.Main', {
         },
         {
             title: 'Local Stations',
-            iconCls: 'user',
+            iconCls: 'tv',
             xtype: 'localstationlist'
         },
         {
             title: 'PodCasts',
-            iconCls: 'user',
+            iconCls: 'podcast',
             xtype: 'podcastsviewer'
         },
         {
         	title: 'Now Playing',
-        	iconCls: 'arrow_right',
+        	iconCls: 'headphones',
         	xtype: 'playercont'
  
         }
