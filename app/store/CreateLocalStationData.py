@@ -2,6 +2,10 @@
 A helper script to create the local station data. It would be nice to load this dynamically but the CBC 
 pls server doesn't support Cross-origin resource sharing so the same-origin policy prevents me
 from using JS to get it. 
+
+// Copyright 2012 Colm Ryan colm@colmryan.org
+// License GPL v3 (http://www.gnu.org/licenses/gpl.txt) 
+
 '''
 
 import urllib2

@@ -1,3 +1,7 @@
+// Copyright 2012 Colm Ryan colm@colmryan.org
+// License GPL v3 (http://www.gnu.org/licenses/gpl.txt) 
+
+
 Ext.define('CBCRadioPlayer.store.LocalStations', {
     extend: 'Ext.data.Store',
     requires: 'CBCRadioPlayer.model.LocalStation',

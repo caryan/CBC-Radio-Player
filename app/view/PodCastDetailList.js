@@ -1,3 +1,6 @@
+// Copyright 2012 Colm Ryan colm@colmryan.org
+// License GPL v3 (http://www.gnu.org/licenses/gpl.txt) 
+
 Ext.define('CBCRadioPlayer.view.PodCastDetailList' , {
 	extend: 'Ext.List',
 	xtype: 'podcastdetaillist',

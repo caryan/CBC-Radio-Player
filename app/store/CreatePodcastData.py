@@ -4,6 +4,9 @@ This is a pain because web scraping is fragile and we'll have to update this if 
 
 Dependency: BeautifulSoup - because it is much nicer than the builtin HTMLParser
 
+// Copyright 2012 Colm Ryan colm@colmryan.org
+// License GPL v3 (http://www.gnu.org/licenses/gpl.txt) 
+
 '''
 
 import urllib2
