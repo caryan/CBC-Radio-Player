@@ -1,0 +1,158 @@
+[
+  {
+    "acronym": "KEL", 
+    "audioURLs": [
+      "http://2643.live.streamtheworld.com:80/CBC_R1_KEL_H_SC", 
+      "http://2643.live.streamtheworld.com:3690/CBC_R1_KEL_H_SC", 
+      "http://2643.live.streamtheworld.com:443/CBC_R1_KEL_H_SC"
+    ], 
+    "cityName": "Kelowna"
+  }, 
+  {
+    "acronym": "PRG", 
+    "audioURLs": [
+      "http://2563.live.streamtheworld.com:80/CBC_R1_PRG_H_SC", 
+      "http://2563.live.streamtheworld.com:3690/CBC_R1_PRG_H_SC", 
+      "http://2563.live.streamtheworld.com:443/CBC_R1_PRG_H_SC"
+    ], 
+    "cityName": "Prince George"
+  }, 
+  {
+    "acronym": "VCR", 
+    "audioURLs": [
+      "http://4673.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://4673.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://4673.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
+      "http://2723.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://2723.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://2723.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
+      "http://7289.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://7289.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://7289.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
+      "http://2513.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://2513.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://2513.live.streamtheworld.com:443/CBC_R1_VCR_H_SC"
+    ], 
+    "cityName": "Vancouver"
+  }, 
+  {
+    "acronym": "VIC", 
+    "audioURLs": [
+      "http://2303.live.streamtheworld.com:80/CBC_R1_VIC_H_SC", 
+      "http://2303.live.streamtheworld.com:3690/CBC_R1_VIC_H_SC", 
+      "http://2303.live.streamtheworld.com:443/CBC_R1_VIC_H_SC"
+    ], 
+    "cityName": "Victoria"
+  }, 
+  {
+    "acronym": "CGY", 
+    "audioURLs": [
+      "http://1651.live.streamtheworld.com:80/CBC_R1_CGY_H_SC", 
+      "http://1651.live.streamtheworld.com:3690/CBC_R1_CGY_H_SC", 
+      "http://1651.live.streamtheworld.com:443/CBC_R1_CGY_H_SC"
+    ], 
+    "cityName": "Calgary"
+  }, 
+  {
+    "acronym": "EDM", 
+    "audioURLs": [
+      "http://1792.live.streamtheworld.com:80/CBC_R1_EDM_H_SC", 
+      "http://1792.live.streamtheworld.com:3690/CBC_R1_EDM_H_SC", 
+      "http://1792.live.streamtheworld.com:443/CBC_R1_EDM_H_SC"
+    ], 
+    "cityName": "Edmonton"
+  }, 
+  {
+    "acronym": "REG", 
+    "audioURLs": [
+      "http://1671.live.streamtheworld.com:80/CBC_R1_REG_H_SC", 
+      "http://1671.live.streamtheworld.com:3690/CBC_R1_REG_H_SC", 
+      "http://1671.live.streamtheworld.com:443/CBC_R1_REG_H_SC"
+    ], 
+    "cityName": "Regina"
+  }, 
+  {
+    "acronym": "REG", 
+    "audioURLs": [
+      "http://1671.live.streamtheworld.com:80/CBC_R1_REG_H_SC", 
+      "http://1671.live.streamtheworld.com:3690/CBC_R1_REG_H_SC", 
+      "http://1671.live.streamtheworld.com:443/CBC_R1_REG_H_SC"
+    ], 
+    "cityName": "Saskatoon"
+  }, 
+  {
+    "acronym": "WPG", 
+    "audioURLs": [
+      "http://2363.live.streamtheworld.com:80/CBC_R1_WPG_H_SC", 
+      "http://2363.live.streamtheworld.com:3690/CBC_R1_WPG_H_SC", 
+      "http://2363.live.streamtheworld.com:443/CBC_R1_WPG_H_SC"
+    ], 
+    "cityName": "Winnipeg"
+  }, 
+  {
+    "acronym": "LDN", 
+    "audioURLs": [
+      "http://3623.live.streamtheworld.com:80/CBC_R1_LDN_H_SC", 
+      "http://3623.live.streamtheworld.com:3690/CBC_R1_LDN_H_SC", 
+      "http://3623.live.streamtheworld.com:443/CBC_R1_LDN_H_SC"
+    ], 
+    "cityName": "London"
+  }, 
+  {
+    "acronym": "OTT", 
+    "audioURLs": [
+      "http://1671.live.streamtheworld.com:80/CBC_R1_OTT_H_SC", 
+      "http://1671.live.streamtheworld.com:3690/CBC_R1_OTT_H_SC", 
+      "http://1671.live.streamtheworld.com:443/CBC_R1_OTT_H_SC"
+    ], 
+    "cityName": "Ottawa"
+  }, 
+  {
+    "acronym": "SUD", 
+    "audioURLs": [
+      "http://1531.live.streamtheworld.com:80/CBC_R1_SUD_H_SC", 
+      "http://1531.live.streamtheworld.com:3690/CBC_R1_SUD_H_SC", 
+      "http://1531.live.streamtheworld.com:443/CBC_R1_SUD_H_SC"
+    ], 
+    "cityName": "Sudbury"
+  }, 
+  {
+    "acronym": "TBA", 
+    "audioURLs": [
+      "http://1671.live.streamtheworld.com:80/CBC_R1_TBA_H_SC", 
+      "http://1671.live.streamtheworld.com:3690/CBC_R1_TBA_H_SC", 
+      "http://1671.live.streamtheworld.com:443/CBC_R1_TBA_H_SC"
+    ], 
+    "cityName": "Thunder Bay"
+  }, 
+  {
+    "acronym": "TOR", 
+    "audioURLs": [
+      "http://6093.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://1451.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://1451.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://1451.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://6693.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://6693.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://6693.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://4293.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://4293.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://4293.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://1721.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://1721.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://1721.live.streamtheworld.com:443/CBC_R1_TOR_H_SC"
+    ], 
+    "cityName": "Toronto"
+  }, 
+  {
+    "acronym": "WDR", 
+    "audioURLs": [
+      "http://2093.live.streamtheworld.com:80/CBC_R1_WDR_H_SC", 
+      "http://2093.live.streamtheworld.com:3690/CBC_R1_WDR_H_SC", 
+      "http://2093.live.streamtheworld.com:443/CBC_R1_WDR_H_SC"
+    ], 
+    "cityName": "Windsor"
+  }
+]
