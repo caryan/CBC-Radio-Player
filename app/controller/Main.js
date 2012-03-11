@@ -30,8 +30,9 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 			playerControls.stop();
 		}
 		playerControls.setUrl(audioURLs[0]);
+		playerControls.isLive = true;
 		playerControls.play();
-		
+
 		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
 
 	},
@@ -68,6 +69,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 			playerControls.stop();
 		}
 		playerControls.setUrl(audioURL);
+		playerControls.isLive = false;
 		playerControls.play();
 		
 		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
