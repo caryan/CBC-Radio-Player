@@ -11,7 +11,7 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-    controllers: ['Main'],
+    controllers: ['Main', 'CurrentlyPlaying'],
     views: ['Main', 'CurrentlyPlaying', 'LocalStationList', 'PodCastList', 'PodCastDetailList'],
     stores: ['LocalStations', 'Favourites', 'PodCasts', 'PodCastDetails'],
     models: ['LocalStation', 'Favourite', 'PodCast', 'PodCastDetail'],

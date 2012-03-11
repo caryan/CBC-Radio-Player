@@ -9,5 +9,6 @@ Ext.define('CBCRadioPlayer.store.PodCastDetails', {
     config: {
         model: 'CBCRadioPlayer.model.PodCastDetail',
         autoLoad: true,
+        imgLink: ''
         }
 });
