@@ -4,13 +4,29 @@
 Ext.define('CBCRadioPlayer.view.PodCastList',{
   extend: 'Ext.List',
   xtype: 'podcastlist',
-  requires: ['CBCRadioPlayer.store.PodCasts'],
+  requires: ['CBCRadioPlayer.store.PodCasts', 'Ext.field.Search'],
   
   config: {
   	title: 'PodCasts',
   	itemTpl: '{title}',
   	store: 'PodCasts',
   	onItemDisclosure: true,
-  	disableSelection: true
-  }
-})
+  	disableSelection: true,
+  	
+	items: [
+        {
+            xtype: 'toolbar',
+            docked: 'top',
+
+            items: [
+              	  {
+                    xtype: 'searchfield',
+                    id: 'podcastsearchfield',
+                    placeHolder: 'Search...'
+                	}
+            	]
+    	    }
+	    ]
+	}
+	
+});

@@ -10,6 +10,8 @@ Ext.define('CBCRadioPlayer.view.FavouritesList',{
   	title: 'Favourites',
   	itemTpl: '{displayName}',
   	store: 'Favourites',
-  	onItemDisclosure: true
+  	onItemDisclosure: true,
+    emptyText: '<div style="margin-top: 20px; text-align: left">Add some favourite for quick launching here.</div>',
+ 
   }
 })
