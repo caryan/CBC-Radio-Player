@@ -27,7 +27,7 @@ Ext.define('CBCRadioPlayer.view.Main', {
         {
         	title: 'Favourites',
         	iconCls: 'favorites',
-        	html: 'Should have a list of favourites here for quick launching.'
+        	xtype: 'favouriteslist'
         },
         {
             title: 'Local Stations',
