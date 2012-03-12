@@ -8,224 +8,194 @@
   {
     "RSSFeed": "http://rss.radio-canada.ca/radio/lumiere.xml", 
     "description": "Les Ann\u00e9es lumi\u00e8re vous invitent \u00e0 un fabuleux voyage hebdomadaire au pays de l'astronomie, de la biologie, de la chimie, de l'environnement, de l'exploration spatiale, de la g\u00e9n\u00e9tique, du g\u00e9nie, de l'histoire, de la philosophie des sciences et bien d'autres... \r\n      Fr\u00e9quence de publication : Hebdomadaire\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-asithappens-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-lesanneeslumiere-sm.jpg", 
     "title": "Les ann\u00e9es lumi\u00e8re"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/asithappens.xml", 
     "description": "Listening to As It Happens is like taking a trip around the world. From the complex headlines of the day to the weird and wacky, As It Happens brings you the story behind the story.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-bandwidth-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-asithappens-sm.jpg", 
     "title": "As It Happens"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/bandwidth.xml", 
     "description": "Every week, Spark producer and technology columnist Anshuman Iddamsetty examines the larger stories behind our ever-evolving digital landscape.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-bottomline-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-bandwidth-sm.jpg", 
     "title": "Bandwidth"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/bottomline.xml", 
-    "description": "The Bottom Line with David Suzuki explores the disconnect between our modern values and our relationship with the Earth.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-hourlies-sm.jpg", 
-    "title": "The Bottom Line"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/mediafeeds/rss/cbc/atissue-video-podcast.xml", 
     "description": "The At Issue political panel is back! Chantal H&#233; bert, Andrew Coyne and Allan Gregg, along with Dan Leger, assess how the federal party leaders fared over the summer, and where they stand heading into a delayed fall session of Parliament. \nPeter Mansbridge hosts the country's most-watched political panel, with\nChantal H\u00e9bert, Andrew Coyne and Allan Gregg debating the week's hot\ntopics on Parliament Hill. Plus, feature interviews with political\nleaders and newsmakers.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-theinsiders-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-atissue-sm.jpg", 
     "title": "CBC News: At Issue (Video)"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/mediafeeds/rss/cbc/atissue-audio-podcast.xml", 
     "description": "The At Issue political panel is back! Chantal H&#233; bert, Andrew Coyne and Allan Gregg, along with Dan Leger, assess how the federal party leaders fared over the summer, and where they stand heading into a delayed fall session of Parliament. \nPeter Mansbridge hosts the country's most-watched political panel, with\nChantal H\u00e9bert, Andrew Coyne and Allan Gregg debating the week's hot\ntopics on Parliament Hill. Plus, feature interviews with political\nleaders and newsmakers.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-w6-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-atissue-sm.jpg", 
     "title": "CBC News: At Issue  (Audio)"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/hourlynews.xml", 
     "description": "The latest News - National and International, updated every hour.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-twth-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-hourlies-sm.jpg", 
     "title": "CBC News: Hourly Edition"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/mediafeeds/rss/cbc/theinsiders-audio-podcast.xml", 
-    "description": "A master class in Canadian politics.  Seasoned insiders Kathleen Monk, David Herle and Jaime Watt explain, in a non-partisan way, how strategies are devised and decisions are made in the party back rooms and in the highest offices of power in the country.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-worldreport-sm.jpg", 
-    "title": "CBC News: The Insiders  (Audio)"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/w6.xml", 
     "description": "Tune in for a wrap-up of world and national events from a team of national reporters and foreign correspondents, hosted by Alison Smith.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-twtw-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-w6-sm.jpg", 
     "title": "CBC News: The World at Six"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/worldthishour.xml", 
     "description": "The World This Hour keeps you up to date with what's happening in Canada and around the world.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-cestlavie-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-twth-sm.jpg", 
     "title": "CBC News: The World This Hour"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/wr.xml", 
     "description": "World Report is news that has broken overnight with a look ahead to the day's expected events. The program features the latest international news, as well as the top domestic stories. It is also an outlet for CBC journalists to break original stories.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-checkup-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-worldreport-sm.jpg", 
     "title": "CBC News: World Report"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/twtw.xml", 
     "description": "The World This Weekend is a half-hour news and information program. It wraps up the day's events on Saturdays and Sundays, bringing Canadians the latest developments on the stories of the day at home and around the world.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thecurrent-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-twtw-sm.jpg", 
     "title": "The World This Weekend"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/cestlavie.xml", 
     "description": "C'est la vie gives listeners a window into the life of French-speaking Canadians through interviews with people in the news and documentaries from across the country.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-day6-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-cestlavie-sm.jpg", 
     "title": "C'est la vie"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/checkup.xml", 
-    "description": "Cross Country Checkup is Canada's only national open-line radio program, broadcast live across Canada every Sunday afternoon on CBC Radio One. Each week broadcaster and writer Rex Murphy presides over a lively discussion on an issue of national interest or importance, and invites listeners to call in with their opinions and thoughts.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-dispatches-sm.jpg", 
-    "title": "Cross Country Checkup"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/current.xml", 
     "description": "The Current is a meeting place of perspectives with a fresh take on issues that affect Canadians today.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thehouse-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thecurrent-sm.jpg", 
     "title": "The Current"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/day6.xml", 
-    "description": "Host Brent Bambury gives listeners the tools they need to make brilliant dinner party conversation! This populist weekly magazine show blends the best of the worlds of news, current affairs, pop culture, the net, lifestyle and leisure. Playful and relevant, Day 6 gives listeners a fresh perspective on the week.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ideas-sm.jpg", 
-    "title": "Day 6"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/dispatches.xml", 
     "description": "Dispatches host Rick MacInnes-Rae knows what it is like to be an eyewitness to history. Go beyond the headlines with correspondents on assignment all over the globe.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-mansbridge1on1-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-dispatches-sm.jpg", 
     "title": "Dispatches"
   }, 
   {
     "RSSFeed": "http://rss.radio-canada.ca/balado/radio/euromag.xml", 
     "description": "Euromag regroupe des moments marquants tir\u00e9s des \u00e9missions diffus\u00e9es sur les ondes des Radios francophones publiques : Radio France, Radio Suisse romande et RTBF (Belgique). \r\n      Fr\u00e9quence de publication : Hebdomadaire\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-manthropology-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-euromag-sm.jpg", 
     "title": "Euromag"
   }, 
   {
     "RSSFeed": "http://rss.radio-canada.ca/balado/radio/hdc.xml", 
     "description": "Toute une \u00e8quipe met son expertise en commun pour faire \u00e8tat des finances, des march\u00e8s, des entreprises, de la consommation, bref, de tout ce qui a trait \u00e0  l'argent. Une r\u00e8alit\u00e8 complexe qui nous concerne tous au quotidien. \r\n      Fr\u00e9quence de publication : Quotidienne\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-misener-on-tech-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-classeeconomique-sm.jpg", 
     "title": "Classe \u00c8conomique"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/thehouse.xml", 
     "description": "Go behind the scenes in the world of Canadian politics with host Evan Solomon and CBC reporters in the Parliamentary Bureau and across the country.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-atthetable-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thehouse-sm.jpg", 
     "title": "The House"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/ideas.xml", 
     "description": "Ideas is all about ideas - programs that explore everything from culture and the arts to science, technology and social issues.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/NationalOnDemand122x122.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ideas-sm.jpg", 
     "title": "The Best of Ideas"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/mediafeeds/rss/cbc/mansbridge-audio-podcast.xml", 
-    "description": "Mansbridge One on One is CBC Television's weekly interview program, a half-hour of relaxed yet intimate dialogue with people who are changing the world around us, and the way we see it.\r\n\r\nHosted by CBC Chief Correspondent Peter Mansbridge, the program welcomes an eclectic blend of newsmakers and thinkers you rarely see in conversation, from the world of politics, arts, business, science and sports.\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Subscribe in iTunes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-oneocean-sm.jpg", 
-    "title": "Mansbridge One On One (Audio)"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/manthropology.xml", 
-    "description": "A weekly look at what it means to be a man in the 21st century.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-powerandpolitics-sm.jpg", 
-    "title": "Manthropology"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/misenerontech.xml", 
-    "description": "Online and on-air, Dan Misener's weekly column explores the latest developments in technology, the internet, and digital culture, and the impact they have on how Canadians live, work, and play.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-promisedland-sm.jpg", 
-    "title": "Misener on Tech"
-  }, 
-  {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/thenational-video-podcast.xml", 
-    "description": "At The Table is a late-night television series featuring engaging conversations with Maritimers. The half-hour programs introduce compelling guests from all walks of life. Tom Murphy and Amy Smith from CBC News in Nova Scotia, and Don Connolly, host of CBC Radio's Information Morning in Nova Scotia, will welcome guests At The Table.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-quirks-sm.jpg", 
-    "title": "At The Table (Maritimes)"
-  }, 
-  {
-    "RSSFeed": "http://rss.radio-canada.ca/bulletinnational.xml", 
     "description": "CBC News' Chief Correspondent Peter Mansbridge hosts The National On Demand weekdays at 6:00 p.m. ET.  It's a unique and dynamic digest of the day's top stories for people who are on the go and online, and a preview of what's coming up on The National. \r\n      \n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Subscribe in iTunes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-quirks-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/NationalOnDemand122x122.jpg", 
     "title": "The National On Demand"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/oneocean.xml", 
+    "RSSFeed": "http://rss.radio-canada.ca/bulletinnational.xml", 
     "description": "\u00c9coutez les derni\u00e8res nouvelles nationales et internationales. \r\n      Fr\u00e9quence de publication : Toutes les heures\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-recivilization-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nouvellesnat-sm.jpg", 
     "title": "Nouvelles"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/powerandpolitics.xml", 
-    "description": "Explore how the ocean holds the very key to all life within its silent and shadowy depths. Join expeditions of discovery to tropical coasts, to the deep, churning sea, and to meet strange and mysterious marine life that most of us will never get to see.\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Subscribe in iTunes \u00a0\u00a0Download the latest mp3", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-rewindx-sm.jpg", 
-    "title": "One Ocean"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/promisedland.xml", 
     "description": "Get daily access to the movers and shakers when Evan Solomon interviews the country's most influential figures. From politicians to writers to leaders from all parts of the country.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/RexMurphy122x122.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-powerandpolitics-sm.jpg", 
     "title": "Power & Politics"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/quirksaio.xml", 
-    "description": "Every episode of Promised Land brings a story of an escape that starts anywhere in the world, but always ends in Canada. In this 10-part series, host Natasha Fatah presents stories of dangerous getaways as described by the immigrants and refugees who endured them to get here.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/RexMurphy122x122.jpg", 
-    "title": "Promised Land"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/quirks.xml", 
     "description": "Quirks & Quarks covers the science and technology beat. Every week, the program presents the people behind the latest discoveries in the physical and natural sciences - from the smallest sub-atomic particle to the largest objects in the sky and everything in between.\r\n \r\n      Click here to subscribe to their entire show:\r\n       <span class=\"pd_upd\">", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-spark-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-quirks-sm.jpg", 
     "title": "Quirks & Quarks"
   }, 
   {
-    "RSSFeed": "http://rss.radio-canada.ca/rci/cadireto.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/quirks.xml", 
     "description": "Quirks & Quarks is also available in segments: \r\n      <span class=\"pd_upd\">Saturdays from July to September, 2010.</span> \n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Subscribe in iTunes\u00a0 \u00a0Download the latest mp3", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sparkplus-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-quirks-sm.jpg", 
     "title": "Quirks & Quarks - Segments"
   }, 
   {
-    "RSSFeed": "http://rss.radio-canada.ca/rci/caameric.xml", 
-    "description": "Canad\u00e1 Direto is a half-hour weekly program dedicated to answering the needs of Brazilian-Canadians while keeping up with the topics of importance to all Brazilians. Hosted by Gilda Salomone, it features interviews, reports and analysis covering a wide range of topics, such as immigration, social, cultural, economic and environmental issues. \r\n      Podcast language: Portuguese", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sundayedition-sm.jpg", 
-    "title": "RCI: Canad\u00e1 Direto"
-  }, 
-  {
-    "RSSFeed": "http://rss.radio-canada.ca/rci/thelink.xml", 
-    "description": "Travel to Canad\u00e1 en las Am\u00e9ricas along with Paloma Mart\u00ednez M\u00e9ndez and the rest of RCI's Latin-american team. Discover the dreams, as well as the realities of Canadians and of course, those who have recently immigrated to this country. We are looking for travelers with a sense of curiosity, so if you are one of them, welcome on board!  \r\n      Podcast language: Spanish.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-tapestry-sm.jpg", 
-    "title": "RCI: Canad\u00e1 en las Am\u00e9ricas"
-  }, 
-  {
-    "RSSFeed": "http://rss.radio-canada.ca/rci/tamtam.xml", 
-    "description": "From Radio Canada International, The Link is a daily radio show aimed at connecting new immigrants to Canada and Canada to the world. Plug in to our show for immigration news and stories. Find out what's new and exciting on Canada's cultural landscape. And get the pulse on what's happening in Canada today. Whether you live inside or outside the country, just click on The Link and get connected.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-trailbreakers-sm.jpg", 
-    "title": "RCI: The Link"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/recivilization.xml", 
-    "description": "Tam-tam Canada, le magazine des nouveaux arrivants au Canada et de nos amis \u00e0 l'\u00e9tranger. Cette \u00e9mission explore la r\u00e9alit\u00e9 quotidienne, les difficult\u00e9s et les succ\u00e8s des nouveaux arrivants au pays. Raymond Desmarteau anime ce rendez-vous avec la soci\u00e9t\u00e9 canadienne, son \u00e9volution, ses tendances et ses points de vue. \r\n      Mise \u00e0 jour quotidienne.\n\n\u00a0RSS\n \r\n\u00a0 podcastnewsletter-Jan2\n\n\u00a0Abonnez-vous dans iTunes\u00a0 <span class=\"pd_itunes\"><img src=\"images/icon-mp3.gif\" border=\"0\" height=\"14\" width=\"14\" alt=\"mp3\">&nbsp;<a href=\"pastpodcasts.html?1#ref1\">Download the latest mp3</a> &nbsp;<a href=\"faq.html#FAQ1\"><img src=\"images/icon-help.gif\" alt=\"Help\" width=\"18\" height=\"18\" border=\"0\" ></a></span> <span class=\"pd_descp\"></span>", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-typea-sm.jpg", 
-    "title": "RCI - Tam-tam Canada"
-  }, 
-  {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/rewind.xml", 
-    "description": "ReCivilization examines the biggest challenges facing our world, and charts a path to the future enabled by the revolutions underway in communications, innovation and learning in this new, post-industrial, digital age.", 
+    "description": "It's all our best Radio One archive material!", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-rewindx-sm.jpg", 
+    "title": "Rewind"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/mediafeeds/rss/cbc/rexmurphy-audio-podcast.xml", 
+    "description": "From politics to pop culture, Rex Murphy brings a unique and always controversial perspective to the news. This season, he'll also be checking in on what Canadians are saying about the stories that matter to them.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/RexMurphy122x122.jpg", 
+    "title": "Rex Murphy (Audio)"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/mediafeeds/rss/cbc/rexmurphy-video-podcast.xml", 
+    "description": "From politics to pop culture, Rex Murphy brings a unique and always controversial perspective to the news. This season, he'll also be checking in on what Canadians are saying about the stories that matter to them.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/RexMurphy122x122.jpg", 
+    "title": "Rex Murphy (Video)"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/spark.xml", 
+    "description": "Spark on CBC Radio One Nora Young helps you navigate your digital life by connecting you to fresh ideas in surprising ways.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-spark-sm.jpg", 
+    "title": "Spark"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/bonussparkplus.xml", 
+    "description": "Spark Plus features additional audio you won't hear on the regular Spark podcast, including extended interviews and bonus material.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sparkplus-sm.jpg", 
+    "title": "Spark Plus"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/sundayedition.xml", 
+    "description": "A podcast of the best of this lively program with host Michael Enright who tackles everything from politics to pop culture, in Canada and around the world.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sundayedition-sm.jpg", 
+    "title": "The Best of The Sunday Edition"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/tapestry.xml", 
+    "description": "Tapestry explores spirituality, religion and the search for meaning. Find space for your soul every week.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-tapestry-sm.jpg", 
+    "title": "Tapestry"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/trailbreakers.xml", 
+    "description": "Trailbreakers is an exciting and eye-opening new series. Trailbreakers profiles Aboriginal people who are blazing a new path forward and shaking up conventional wisdom about themselves and issues by getting up close and personal.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-trailbreakers-sm.jpg", 
+    "title": "Trailbreakers"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/typea.xml", 
+    "description": "Type A is a series that celebrates strong personalities who are not afraid to speak their minds. Hosts Rod Love and Karin Klassen define their starting point as this: if you take care of the economy - everything else will take care of itself.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-typea-sm.jpg", 
+    "title": "Type A"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/whitecoat.xml", 
+    "description": "Dr. Brian Goldman takes listeners through the swinging doors of hospitals and doctors' offices, behind the curtain where the gurney lies.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-whitecoat-sm.jpg", 
-    "title": "ReCivilization"
+    "title": "White Coat, Black Art"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/calgwildrose.xml", 
@@ -256,12 +226,6 @@
     "description": "The Early Edition Podcast features the top story of the day from The Early Edition with Rick Cluff. Expect to hear highlights from the show's news, health, civic affairs, cultural and community coverage.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-bcearlyedition-sm.jpg", 
     "title": "BC: The Early Edition"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/bcnxnw.xml", 
-    "description": "Join host Sheryl MacKay to meet creative people from all around the province. Hear about their passions and inspirations. You'll visit artists and in their studios, musicians and performers backstage, writers at their keyboards and chefs at the cooktop. There's great conversation and a lot of laughs too waiting for you every weekend on North by Northwest.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-bcnxnw-sm.jpg", 
-    "title": "BC: North by Northwest"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/bconthecoast.xml", 
@@ -336,393 +300,273 @@
     "title": "MB: Information Radio"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/maritimemagazine.xml", 
-    "description": "Maritime Magazine tells stories about issues and people throughout the region. We present documentaries prepared by Maritime journalists that take a thoughtful approach to the changes going on in our region. We talk about the things that pull us together as a region - and sometimes tear us apart!", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-maritimemagazine-sm.jpg", 
-    "title": "Maritime Magazine"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/maritimenoon.xml", 
-    "description": "Maritime Noon delivers developing stories in the region, and keeps you up-to-date on breaking news. We track down the experts to help you make smart choices, and we always open the conversation up to you. It's about Maritimers talking to Maritimers. Join Host Norma Lee MacLeod everyday for Maritime Noon.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-maritimenoon-sm.jpg", 
-    "title": "Maritime Noon"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/infomornfred.xml", 
-    "description": "At The Table is a late-night television series featuring engaging conversations with Maritimers. The half-hour programs introduce compelling guests from all walks of life. Tom Murphy and Amy Smith from CBC News in Nova Scotia, and Don Connolly, host of CBC Radio's Information Morning in Nova Scotia, will welcome guests At The Table.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-atthetable-sm.jpg", 
-    "title": "Maritimes: At The Table"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nbmoncinfomorn.xml", 
+    "RSSFeed": "http://cbcdownload.blip.tv/rss", 
     "description": "DOWNLOAD is a new kind of program designed for the Maritimes. Think of it as a new television channel devoted to broadcasting comedy, drama, music and information programs all made in the Maritimes.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-download-sm.jpg", 
     "title": "Maritimes: Download"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/infomornsaintjohnnb.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/infomornfred.xml", 
     "description": "Information Morning Fredericton is your daily survival guide. We bring you the top stories from the city, the province - and around the world. We run the stories that matter to you.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-infomornfred-sm.jpg", 
     "title": "NB: Info. Morning (Fred.)"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/polipanelnb.xml", 
-    "description": "Information Morning is the essential source of news and information for radio listeners. The station broadcasts to the eastern half of New Brunswick from Campbellton to Cape Tormentine, and covers the cities of Moncton, Miramichi, Bathurst, Dieppe and Campbellton. Join the Information Morning Moncton team every weekday.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nbmoncinfomorn-sm.jpg", 
-    "title": "NB: Info. Morning (Monc.)"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/shiftnb.xml", 
-    "description": "Information Morning in Saint John brings you all the news and information you need to start your day. We'll get you connected to your community, your country and the world. Without us, you won't know what's going on.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-infomornsaintjohnnb-sm.jpg", 
-    "title": "NB: Info. Morning (Saint John)"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/spinreduxit.xml", 
     "description": "The weekly online New Brunswick political panel, hosted by Terry Seguin.\r\n  <span class=\"pd_upd\">", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-polipanelnb-sm.jpg", 
     "title": "NB: The Political Panel"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/cnlmornshow.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/shiftnb.xml", 
     "description": "Shift is an energetic two and a half hours that connects people in the province with the events of the day and with each other.\r\n  <span class=\"pd_upd\">", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-nbshift-sm.jpg", 
     "title": "NB: Shift"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlfisheries.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/spinreduxit.xml", 
     "description": "Spin Reduxit is CBC New Brunswick's political blog. CBC reporters Jacques Poitras and Daniel McHardie analyze the latest in New Brunswick politics and decode the spin emanating out of the provincial legislature.\r\n  <span class=\"pd_upd\">", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-spinreduxit-sm.jpg", 
     "title": "NB: Spin Reduxit"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlwamgaloot.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/cnlmornshow.xml", 
     "description": "Join host Leigh Anne Power in Gander on the Central Newfoundland Morning Show. The show provides news along with current affairs items and stories of local interest from urban areas and the diverse rural communities surrounding the two towns.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-cnlmornshow-sm.jpg", 
     "title": "NL: Central Morning Show"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/labmorning.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlfisheries.xml", 
     "description": "Since going on the air in 1951, \"The Broadcast,\" as it is affectionately known, has been dedicated to covering stories about the fishing industry, reflecting the people and the communities that depend on the sea for their livelihood.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlfisheries-sm.jpg", 
     "title": "NL: Fisheries Broadcast"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/onpointradio.xml", 
-    "description": "As comedian Andy Jones famously says, The Weekend Arts Magazine explores our \"Galoot of a culture.\" Join host Angela Antle as she tours artist studios and galleries, jumps on stage with clowns, comedians and musicians and chats with the province's latest literary lights. Stay connected to the province's many festivals and hear about the growing business of art on WAM.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlwamgaloot-sm.jpg", 
-    "title": "NL: The Galoot fro"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlonthego.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/labmorning.xml", 
     "description": "Hosted by Cindy Wall and Tony Dawson, the program keeps people informed about what's happening around them. Labradorians hear about it first on Labrador Morning.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-labmorning-sm.jpg", 
-    "title": "m WAM"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlradionoon.xml", 
-    "description": "A live political call-in show, focusing on one provocative question about the political news of the day/week.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-onpointradio-sm.jpg", 
     "title": "NL: Labrador Morning"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlstjohnmorn.xml", 
-    "description": "On The Go has now been on the air for 30 years, bringing Newfoundlanders and Labradorians stories from every nook, cranny and cove in the province.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlonthego-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/onpointradio.xml", 
+    "description": "A live political call-in show, focusing on one provocative question about the political news of the day/week.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-onpointradio-sm.jpg", 
     "title": "NL: On Point Radio"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlwcmornshow.xml", 
-    "description": "Join host Ramona Dearing for entertainment and information on Radio Noon. The program features Radio Noon Crosstalk, a phone-in segment with special guests. There is always a range of topics, from lifestyles to political and social issues.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlradionoon-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlonthego.xml", 
+    "description": "On The Go has now been on the air for 30 years, bringing Newfoundlanders and Labradorians stories from every nook, cranny and cove in the province.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlonthego-sm.jpg", 
     "title": "NL: On The Go"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/borealhebdonq1.xml", 
-    "description": "While you've been sleeping, the world has changed.  The Morning Show tells you how. We bring you the latest news; the stories that matter most, and the information you need.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlstjohnmorn-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlradionoon.xml", 
+    "description": "Join host Ramona Dearing for entertainment and information on Radio Noon. The program features Radio Noon Crosstalk, a phone-in segment with special guests. There is always a range of topics, from lifestyles to political and social issues.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlradionoon-sm.jpg", 
     "title": "NL: Radio Noon"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/north.xml", 
-    "description": "The people on the west coast of Newfoundland and in Southern Labrador depend on The West Coast Morning Show to start their weekdays. The program offers national, regional and local news, weather and sports with a focus on items of interest to those living in Corner Brook and the surrounding area.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlwcmornshow-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nlstjohnmorn.xml", 
+    "description": "While you've been sleeping, the world has changed.  The Morning Show tells you how. We bring you the latest news; the stories that matter most, and the information you need.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nlstjohnmorn-sm.jpg", 
     "title": "NL: St. John's Morning"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nsinfomorn.xml", 
-    "description": "Bor\u00e9al Hebdo est un magazine d'information diffus\u00e9 en fran\u00e7ais pour les gens des communaut\u00e9s atikamekw, cries et inuites. Joignez-vous \u00e0 Catherine Lafrance, animatrice de Bor\u00e9al Hebdo, toutes les semaines afin de d\u00e9couvrir la vie politique, \u00e9conomique, culturelle et traditionnelle au nord du Qu\u00e9bec.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-borealhebdo-sm.jpg", 
-    "title": "NL: W. Coast Morning Show"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/mainstreetns.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/north.xml", 
     "description": "The North This Week features the best stories from the past seven days from Whitehorse to Yellowknife to Iqaluit. Expect to hear all kinds of great features from shows like A New Day and The Trailbreaker and many others.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-north-sm.jpg", 
-    "title": "CBC North: Boreal Hebdo"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/ontariomorning.xml", 
-    "description": "Information Morning kick starts the day on mainland Nova Scotia with news, survival information, compelling stories and opinions from all perspectives in the province.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nsinfomorn-sm.jpg", 
     "title": "The North This Week"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/ontariotoday.xml", 
-    "description": "A lively and informative blend of news designed to put Cape Breton listeners back in touch with their communities at the end of the workday.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-mainstreetcb-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/nsinfomorn.xml", 
+    "description": "Information Morning kick starts the day on mainland Nova Scotia with news, survival information, compelling stories and opinions from all perspectives in the province.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nsinfomorn-sm.jpg", 
     "title": "NS: Information Morning"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/ottallinaday.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/mainstreetns.xml", 
     "description": "A lively and entertaining blend of national and regional news, interviews, book reviews and recipes, Mainstreet is designed to put Nova Scotia listeners back in touch with their communities at the end of the workday.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-mainstreetns-sm.jpg", 
-    "title": "NS: Mainstreet Cape Breton"
-  }, 
-  {
-    "RSSFeed": "http://rss.radio-canada.ca/balado/regions/ogalc.xml", 
-    "description": "Ontario Morning tells you what's happening in your world - whether it's down the road or around the globe.Get the latest national and international news on World Report and local newscasts on the half-hour.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ontariomorning-sm.jpg", 
     "title": "NS: Mainstreet Halifax"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/peiislandmorn.xml", 
-    "description": "Host Rita Celli invites listeners to get together for a province-wide conversation about the stories that affect you.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ontariotoday-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/ontariomorning.xml", 
+    "description": "Ontario Morning tells you what's happening in your world - whether it's down the road or around the globe.Get the latest national and international news on World Report and local newscasts on the half-hour.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ontariomorning-sm.jpg", 
     "title": "Ontario Morning"
   }, 
   {
-    "RSSFeed": "http://rss.radio-canada.ca/balado/regions/qcalc.xml", 
-    "description": "All In A Day is Ottawa's number one afternoon drive program. Alan Neal and the All In A Day team offer compelling local stories, as well as regional, national and international reports.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ottallinaday-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/ontariotoday.xml", 
+    "description": "Host Rita Celli invites listeners to get together for a province-wide conversation about the stories that affect you.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ontariotoday-sm.jpg", 
     "title": "Ontario Today"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/saskmorningedition.xml", 
-    "description": "Revisitez les meilleurs reportages et entrevues diffus\u00e9s pendant la semaine sur nos ondes. Une fa\u00e7on s\u00fbre de rester branch\u00e9 sur la sc\u00e8ne culturelle, politique, \u00e9conomique et sociale. \r\n      Fr\u00e9quence de publication : Hebdomadaire\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-peiislandmorn-sm.jpg", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/ottallinaday.xml", 
+    "description": "All In A Day is Ottawa's number one afternoon drive program. Alan Neal and the All In A Day team offer compelling local stories, as well as regional, national and international reports.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-ottallinaday-sm.jpg", 
     "title": "Ottawa All In A Day"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/sudmornnorth.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/peiislandmorn.xml", 
     "description": "CBC Radio's Island Morning is a news and current affairs source for Prince Edward Island. Host Matt Rainnie and morning news editor Mitch Cormier talk about the issues that matter to islanders. \r\n    Highlights updated weekdays.\n\u00a0RSS\n\u00a0\n\u00a0Subscribe in iTunes\u00a0\n\u00a0Download the latest mp3", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-saskmorningedition-sm.jpg", 
-    "title": "Ottawa-Gatineau \u00e0 la carte"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/greatnorthwest.xml", 
-    "description": "Revisitez les meilleurs reportages et entrevues diffus\u00e9s pendant la semaine \u00e0 Qu\u00e9bec. Une fa\u00e7on s\u00fbre de rester branch\u00e9 sur la sc\u00e8ne culturelle, politique, \u00e9conomique et sociale \u00e0 Qu\u00e9bec. \r\n      Fr\u00e9quence de publication : Hebdomadaire\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sudmornnorth-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-peiislandmorn-sm.jpg", 
     "title": "PEI: Island Morning"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/metromorning.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/saskmorningedition.xml", 
     "description": "Every weekday, The Morning Edition examines urban and rural issues from across Saskatchewan.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-greatnorthwest-sm.jpg", 
-    "title": "Qu\u00e9bec \u00e0 la carte"
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-saskmorningedition-sm.jpg", 
+    "title": "SK: The Morning Edition"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/sudmornnorth.xml", 
+    "description": "Morning North is a weekday news and current affairs program hosted by Markus Schwabe.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sudmornnorth-sm.jpg", 
+    "title": "Sudbury: Morning North"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/metromorning.xml", 
+    "description": "Metro Morning with Matt Galloway keeps listeners informed about what's going on in Toronto and offers listeners an optimistic, sometimes humorous view of the world, together with the day's more serious news.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-metromorning-sm.jpg", 
+    "title": "Toronto: Metro Morning"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/aop.xml", 
     "description": "Terry O'Reilly explores the countless ways marketers permeate your life, from media, art, and language, to politics, religion, and fashion.\r\n  \n\u00a0RSS\n \u00a0\n \u00a0Subscribe in iTunes\u00a0\n\u00a0Download the latest mp3", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-canadalive-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-aop-sm.jpg", 
     "title": "The Age of Persuasion"
   }, 
   {
     "RSSFeed": "http://rss.radio-canada.ca/bandeapart/bandeapart_podcast.xml", 
     "description": "Bande \u00e0 part vous propose chaque semaine une s\u00e9lection musicale \u00e0 t\u00e9l\u00e9charger, ponctu\u00e9e par de courts extraits de conversations avec des m\u00e9lomanes ou des artisans. \r\n      Fr\u00e9quence de publication : Hebdomadaire\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0 <span class=\"pd_itunes\"><img src=\"images/icon-mp3.gif\" border=\"0\" height=\"14\" width=\"14\" alt=\"mp3\">&nbsp;<a href=\"pastpodcasts.html?1#ref1\">Download the latest mp3</a> &nbsp;<a href=\"faq.html#FAQ1\"><img src=\"images/icon-help.gif\" alt=\"Help\" width=\"18\" height=\"18\" border=\"0\" ></a></span> <span class=\"pd_descp\"></span>", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-cndareads-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-bapselection-sm.jpg", 
     "title": "Bande \u00e0 part"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio2/canada_live/standard/index.xml", 
-    "description": "Every night on CBC Radio 2, Canada Live presents the best in live music from concert stages across the country.  And every week the Canada Live podcast brings you highlights from some of those amazing concerts,  from pop to jazz, roots to world,  and everywhere in between.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-cf-sm.jpg", 
-    "title": "Radio 2: Canada Live"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/cndareads.xml", 
-    "description": "Canada Reads celebrates five Canadian books for three months online, at public events and on air. It all leads up to a week-long show hosted by Jian Ghomeshi. In this annual title fight, five celebrity panelists defend their favourite work of Canadian fiction. One by one, books are voted off the list, until one panelist triumphs with the book for Canada to read this year.\r\n\r\n          Full series available.\n\n\u00a0RSS\n\r\n\u00a0 \n\n\u00a0Subscribe in iTunes \u00a0\n\u00a0Download the latest mp3", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thedebaters-sm.jpg", 
-    "title": "Canada Reads"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/cf.xml", 
     "description": "If a joke's worth telling, it's worth repeating. The Comedy Factory collects our favourite skits, commentaries and funny bits that appeared on CBC Radio over the past week. It's an assembly line of humour, safety-tested and priced to move!", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-dnto-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-cf-sm.jpg", 
     "title": "Comedy Factory"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/dnto.xml", 
-    "description": "For reasons associated with copyrights of creative content, we're unable to offer episodes of The Debaters for free download via podcast; however, you can now purchase episodes of The Debaters with host Steve Patterson!\r\n          \u00a0Purchase Season 1\u00a0Purchase Season 2\u00a0Purchase Season 3\u00a0Purchase Season 4\u00a0Purchase Season 5", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-dntoplus-sm.jpg", 
-    "title": "The Debaters"
-  }, 
-  {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio1/dnto/enhanced/index.xml", 
-    "description": "DNTO invites you to make discoveries about who we really are - flawed, funny, and beautiful - one story at a time.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-glasneronfilm-sm.jpg", 
-    "title": "The Best of DNTO"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/glasneronfilm.xml", 
     "description": "If you have iTunes or an iPod, you can now download and experience the Definitely Not the Opera enhanced podcast, complete with chapters, photos and links! The enhanced podcast format makes it easier for you to navigate through our weekly collection of highlights. It's like an audio slideshow on your iPod!", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-irrelevantshow-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-dntoplus-sm.jpg", 
     "title": "DNTO: Enhanced"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/irrelevantshow.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/glasneronfilm.xml", 
     "description": "CBC Radio Film Reviewer Eli Glasner shares his big screen thoughts on the latest and greatest movies appearing at theatre near you.  Some cinema smarts (and snark) to go with your popcorn.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-irrelshowsketches-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-glasneronfilm-sm.jpg", 
     "title": "Eli Glasner on Film"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/irrelshowsketches.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/irrelevantshow.xml", 
     "description": "A weekly romp of original, biting, ridiculous, outrageous and ultimately hilarious sketch comedy from a crack team in Edmonton.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-lollotd-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-irrelevantshow-sm.jpg", 
     "title": "The Irrelevant Show"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/lollotd.xml", 
-    "description": "This summer, you can download some of your favourite Irrelevant Show sketches from past seasons, including the wisdom of Reba McEntire, the Jane Austen Drinking Game, and the thrilling infomercial for the latest invention, The Mug!", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-laughoutloud-sm.jpg", 
-    "title": "The Irrelevant Show: Sketches"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/laughoutloud.xml", 
     "description": "CBC Radio's Laugh Out Loud presents a new, quick joke for you every day with the Laugh of the Day podcast!\r\n  <span class=\"pd_upd\">Currently on hiatus. Archive episodes available until June 2011.</span>\n\u00a0RSS\n\u00a0\n\u00a0Subscribe in iTunes\u00a0\n\u00a0Download the latest mp3", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nextchapter-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-lollotd-sm.jpg", 
     "title": "Laugh of the Day"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/nextchapter.xml", 
-    "description": "CBC Radio's Laugh out Loud is Canada's new home for comedy. Every week host Craig Norris features the best and funniest comics in the business. Recorded at festivals and comedy clubs across the country, LOL is the show to hear to stay on top of the Canadian comedy scene. From the famous to the found, LOL will bring you the funny every week.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-qpodcast-sm.jpg", 
-    "title": "Laugh Out Loud"
-  }, 
-  {
-    "RSSFeed": "http://rss.radio-canada.ca/radio/par4.xml", 
-    "description": "The 2011 CBC Massey Lectures celebrates fifty years with bestselling author, essayist, cultural observer, and famed New Yorker contributor Adam Gopnik. His subject is winter -  the season, the space, the cycle. \r\n  <span class=\"pd_upd\">Released daily until Nov. 12. Available until Nov. 15.</span> \r\n  <form action=\"\"><div class=\"pd_rss\"><a href=\"http://www.cbc.ca/podcasting/includes/cbcmassey2010.xml\"><img src=\"images/icon-rssfeed.gif\" border=\"0\" height=\"14\" width=\"14\" alt=\"RSS Feed\"></a>&nbsp;<a href=\"http://www.cbc.ca/podcasting/includes/cbcmassey2010.xml\">RSS</a>\r\n      <input type=\"text\" class=\"pd_input\" name=\"text_area\" onClick=\"javascript:this.form.text_area.focus();this.form.text_area.select();\" value=\"http://www.cbc.ca/podcasting/includes/cbcmassey2010.xml\"> &nbsp;<a href=\"gettingstarted.html#rss\"><img src=\"images/icon-help.gif\" alt=\"Help\" width=\"18\" height=\"18\" border=\"0\" ></a>\r\n  </div></form>\n\u00a0Now available for purchase on iTunes<a href=\"gettingstarted.html#iTunes\"><img src=\"images/icon-help.gif\" alt=\"Help\" width=\"18\" height=\"18\" border=\"0\" ></a>\n<span class=\"pd_itunes\"><img src=\"images/icon-mp3.gif\" border=\"0\" height=\"14\" width=\"14\" alt=\"mp3\">&nbsp;<a href=\"pastpodcasts.html?97#ref97\">Download the latest mp3</a> &nbsp;<a href=\"faq.html#FAQ1\"><img src=\"images/icon-help.gif\" alt=\"Help\" width=\"18\" height=\"18\" border=\"0\" ></a></span>\r\n\t\t  <span class=\"pd_descp\"></span>", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-qtv-sm.jpg", 
-    "title": "2011 CBC Massey Lectures"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/qpodcast.xml", 
     "description": "Shelagh Rogers travels the country, conversing with authors and readers of all kinds.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-qvault-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-nextchapter-sm.jpg", 
     "title": "The Next Chapter"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/qinterviews.xml", 
-    "description": "Avec un esprit d'ouverture et une curiosit\u00e9 toujours en \u00e9veil, Jacques Languirand arpente les chemins de la connaissance qui vont droit \u00e0 l'essentiel: le moi, la nature, la soci\u00e9t\u00e9 et la transcendance avec des questions fondamentales et incontournables. D'o\u00f9 venons-nous? Qui sommes-nous? O\u00f9 allons-nous? Par ses r\u00e9flexions et un choix musical \u00e9clectique, Jacques Languirand se r\u00e9v\u00e8le \u00e0 la fois d\u00e9stabilisant et \"tripatif\", \u00e0 l'image du monde actuel. \r\n      Fr\u00e9quence de publication : Hebdomadaire\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/R3-30-122x122.jpg", 
-    "title": "Par 4 chemins"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio1/aboriginals/standard/index.xml", 
-    "description": "Q is Canada's liveliest arts, culture and entertainment magazine. It's a smart and surprising tour through personalities and cultural issues that matter to Canadians. Hosted by Jian Ghomeshi, Q covers pop culture and high arts alike. Q brings you big names, big ideas, and those paving the way in Canada's cultural community. Q is your cultural intervention!", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-r3-sm.jpg", 
-    "title": "Q: The Podcast"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/revisionquest.xml", 
+    "RSSFeed": "http://qtv.blip.tv/rss", 
     "description": "QTV is the televised version of CBC Radio One's Q with Jian Ghomeshi, which also airs on CBC's bold tv.  Featuring full length interviews with celebrities and personalities in the worlds of arts, culture and entertainment.  The video podcast brings you the best interviews for you to download and watch.  Check it out.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-radio3aboriginals-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-qtv-sm.jpg", 
     "title": "Q: The Video Podcast"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/inconcertnext.xml", 
-    "description": "Q Vault offers individual interviews-to-go:  memorable conversations from North America's liveliest arts, culture and entertainment magazine.  Discover - or revisit - host Jian Ghomeshi's in-depth interviews with some of the world's most fascinating cultural personalities in music, TV and film, books, theatre, visual arts, media, and more.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-radio3breakfastclub-sm.jpg", 
-    "title": "Q Vault"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/satnightblues.xml", 
-    "description": "Every week, host Craig Norris counts down the very best in new music, according to CBC Radio 3. His producer Pedro Mendes rides shotgun as they chow down on a twisted jungle gym of new music, listener picks, Chartbreakers\u2122, and mixed metaphors. And Love. Always Love.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-radio3extendedplay-sm.jpg", 
-    "title": "The R3-30"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio2/thesignal/standard/index.xml", 
-    "description": "CBC Radio 3 is a weekly hour of 100% Canadian music from new and emerging artists. It's one of the most popular podcasts in the country, playing the best in new rock, pop, singer-songwriters, hip hop, and electronica.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-r3sessions-sm.jpg", 
-    "title": "CBC Radio 3"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/strangerthanfiction.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio1/aboriginals/standard/index.xml", 
     "description": "Ab-Originals is a weekly podcast of the hottest Aboriginal music in Canada. Four of the best-known musical hosts in Indian Country will bring you live concerts, urban and hip-hop music, top 10 chart artists, and all the rest of it in their musical podlatch.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-r3superfeed-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-radio3aboriginals-sm.jpg", 
     "title": "CBC Radio 3 Ab-Originals"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/sundayedition.xml", 
-    "description": "Join R3 Host Vish Khanna as he meets with musicians and artists for a frank, informal interview over breakfast. They pick the place, Vish picks their brains. And occasionally at their plates...", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-inconcert-next-sm.jpg", 
-    "title": "CBC Radio 3 Breakfast Club"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/thisisthat.xml", 
-    "description": "CBC Radio 3's Extended Play is a bi-weekly podcast that explores current events happening in the world of Canadian independent music. Hosted by Lisa Christiansen, it is an ongoing conversation between artists and listeners about the issues having an impact on music culture today.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-satnightblues-sm.jpg", 
-    "title": "CBC Radio 3 Extended Play"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/trustinc.xml", 
-    "description": "When it comes to breaking new sound, we are the jackhammer on the pavement of commercial music. Every week we feature artists recorded live off-the-floor as they experiment with alternate arrangements and new songs before they're released. Hosted by Tariq Hussain, it's music straight from the heart, with artists at their sweaty best.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thesignal-sm.jpg", 
-    "title": "CBC Radio 3 Sessions"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/undertheinfluence.xml", 
-    "description": "CBC Radio 3 is the part of Canada's public broadcaster that devotes itself entirely to new Canadian music.  With the CBC Radio 3 Super Feed, you can catch every podcast we make and loads of amazing new tunes in just one place.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-stf-sm.jpg", 
-    "title": "Radio 3 Super Feed"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio2/upclose/standard/index.xml", 
-    "description": "ReVision Quest is a convention-breaking radio show, hosted by Shuswap comedian Darrell Dennis, that explodes myths about Aboriginal life, and explores what it means to be First Nations in Canada today through story-telling, interviews and comedy.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sundayedition-sm.jpg", 
-    "title": "ReVision Quest"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/vinylcafe.xml", 
-    "description": "CBC Radio 2's \"In Concert\" puts the spotlight on Canada's emerging classical music talents. The Next! podcast takes listeners behind the scenes with portraits of these young musicians along with live concert performances recorded across the country. Hosted by Bill Richardson.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thisisthat-sm.jpg", 
-    "title": "In Concert's NEXT! Podcast"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/wachtelonthearts.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/satnightblues.xml", 
     "description": "Saturday Night Blues has been CBC's flagship program of great blues, swing, boogie, gospel and roots music since 1986. Holger Petersen is at the helm. Subscribe to the podcast to download our exclusive interviews.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-trustinc-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-satnightblues-sm.jpg", 
     "title": "Saturday Night Blues"
   }, 
   {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/wiretap.xml", 
-    "description": "Every week, the Signal Podcast brings you contemporary music without borders, from \"New Music\" to new hybrids. A show for the musically curious.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-undertheinfluence-sm.jpg", 
-    "title": "Radio 2: The Signal"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/wordofmouth.xml", 
-    "description": "Funny, outrageous, heartbreaking true stories by Canadian writers. Hosted by Heather O'Neill, author of the novel Lullabies for Little Criminals.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-upclose-sm.jpg", 
-    "title": "Stranger Than Fiction"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/wordoftheweek.xml", 
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/sundayedition.xml", 
     "description": "A podcast of the best of this lively program with host Michael Enright who tackles everything from politics to pop culture, in Canada and around the world.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-vinylcafe-sm.jpg", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sundayedition-sm.jpg", 
     "title": "The Sunday Edition"
   }, 
   {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio2/upclose/standard/index.xml", 
+    "description": "Up-close and intimate performances by some of Canada's best musicians, recorded live off the CBC studio floor.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-upclose-sm.jpg", 
+    "title": "Up Close: The CBC Radio 2 Sessions"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/vinylcafe.xml", 
+    "description": "The stories and misadventures of Dave, the owner of the \"Vinyl Cafe\", the world's smallest record store, where the motto is \"We may not be big, but we're small.\"", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-vinylcafe-sm.jpg", 
+    "title": "Vinyl Cafe Stories"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/wiretap.xml", 
+    "description": "Enter the world of Jonathan Goldstein. You wouldn't want to live there, but it's a hell of a place to visit.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-wiretap-sm.jpg", 
+    "title": "WireTap"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/wordoftheweek.xml", 
+    "description": "C'est la vie's Word of the Week is a window into the life of French-speaking Canadians -- one word at a time.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-wordoftheweek-sm.jpg", 
+    "title": "Word of the Week"
+  }, 
+  {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/writersandco.xml", 
-    "description": "This Is That is a current affairs program that doesn't just talk about the issues, it fabricates them. Nothing's off limits--politics, business, culture, justice, science, religion--if it's relevant to Canadians, we'll find out the \"This\" and the \"That\" of the story. Each week, hosts Pat Kelly and Peter Oldring will introduce you to the voices that give this country character and through these stories provide a new perspective as to what it means to live in Canada.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-wachtelonthearts-sm.jpg", 
-    "title": "This Is That"
+    "description": "Host Eleanor Wachtel explores the lives, thoughts and works of remarkable writers from around the world.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-writersandco-sm.jpg", 
+    "title": "Writers & Company"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/coachscorner.xml", 
     "description": "Don Cherry gives his unique view on the game of hockey with host Ron MacLean. \r\n\r\n\r\n\r\n\r\n  \n\u00a0RSS\n \u00a0\n \u00a0Subscribe in iTunes\u00a0\n\u00a0Download the latest mp3", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sportology-sm.jpg", 
+    "imgLink": "http://cbc.ca/podcasting/images/promo-hnic-coaches-corner-sm.jpg\r\n", 
     "title": "Coach's Corner"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/extremecanada.xml", 
+    "description": "Paul Karchut will be your guide this summer as he introduces us to a different obscure, extreme sport each week.\r\n  \n\u00a0RSS\n \u00a0\n \u00a0Subscribe in iTunes\u00a0\n\u00a0Download the latest mp3", 
+    "imgLink": "http://cbc.ca/podcasting/images/promo-extremecanada-sm.jpg\r\n", 
+    "title": "Extreme Canada"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/hotstove.xml", 
+    "description": "The Hotstove pulls together Hockey Night's top journalists to discuss the latest news and rumours from around the National Hockey League. The panel includes Ron MacLean, Pierre Lebrun, Mike Milbury, Glenn Healey and other regular guests.\r\n\r\n\r\n\n\u00a0RSS\n \r\n      \u00a0\n\n\u00a0Subscribe in iTunes\u00a0\n\u00a0Download the mp3", 
+    "imgLink": "http://cbc.ca/podcasting/images/promo-hnic-hotstove-sm.jpg", 
+    "title": "The Hotstove"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/hockeyonline.xml", 
+    "description": "Nabil Karim, Gord Stellick and Tim Wharnsby provide expert analysis of the Top hockey stories of the day. \r\n\r\n\n\n\u00a0RSS\n\r\n          \u00a0\n \u00a0Subscribe in iTunes\u00a0\nDownload the mp3", 
+    "imgLink": "http://cbc.ca//podcasting/images/promo-hnic-hockeyonline-sm.jpg", 
+    "title": "Hockey Online"
+  }, 
+  {
+    "RSSFeed": "http://rss.radio-canada.ca/balado/radio/sgraphe.xml", 
+    "description": "LE SPORTNOGRAPHE offre une revue satirique du sport, ax\u00e9e principalement sur le hockey. \r\n      Fr\u00e9quence de publication : Hebdomadaire\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-lesportnographe-sm.jpg", 
+    "title": "Le Sportnographe"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/sportology.xml", 
+    "description": "CBC Radio's veteran sports columnist Nick Purdon always has a fresh take on the world of sports.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-sportology-sm.jpg", 
+    "title": "Sportology"
   }
 ]

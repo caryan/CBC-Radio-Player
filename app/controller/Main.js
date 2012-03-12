@@ -24,12 +24,17 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 
 	startLocalStationStream: function(list, record) {
 		audioURLs = record.data.audioURLs;
-		var playerControls = this.getCurPlayerContainer().query('#playerControl')[0];
-				if (playerControls.isPlaying()) {
+		var playerControls = Ext.ComponentManager.get('curPlayingControls')
+
+		if (playerControls.isPlaying()) {
 			playerControls.stop();
 		}
 		playerControls.setUrl(audioURLs[0]);
+		playerControls.isLive = true;
 		playerControls.play();
+
+		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
+
 	},
 
 	showPodCastDetail: function(list, record) {
@@ -38,9 +43,10 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 				title: record.data.title,
 				store: {
 					xtype: 'podcastdetails',
+					imgLink: record.data.imgLink,
 					proxy: {
 						type: 'jsonp',
-						url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=' + record.data.RSSFeed,
+						url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=-1&q=' + record.data.RSSFeed,
 						reader: {
 							type: 'json',
 							rootProperty: 'responseData.feed.entries'
@@ -52,12 +58,21 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 	
 	startPodCastStream: function(list, record) {
 		audioURL = record.data.link;
-		var playerControls = this.getCurPlayerContainer().query('#playerControl')[0];
+		
+		var playerControls = Ext.ComponentManager.get('curPlayingControls')
+		
+		Ext.get('showTitle').setHtml('<b>' + record.data.title + '</b>');
+		Ext.get('showContent').setHtml(record.data.content);
+		Ext.get('showImage').dom.src = list.getStore().getImgLink();
+
 		if (playerControls.isPlaying()) {
 			playerControls.stop();
 		}
 		playerControls.setUrl(audioURL);
+		playerControls.isLive = false;
 		playerControls.play();
+		
+		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
 		
 	}
 

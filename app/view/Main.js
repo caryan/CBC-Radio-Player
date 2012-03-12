@@ -17,6 +17,7 @@ Ext.define('PodCastsView',  {
 Ext.define('CBCRadioPlayer.view.Main', {
     extend: 'Ext.TabPanel', 
     xtype: 'mainpanel',
+    id: 'mainTabPanel',
     requires: ['CBCRadioPlayer.view.LocalStationList', 'CBCRadioPlayer.view.FavouritesList'],
 
     config: {
