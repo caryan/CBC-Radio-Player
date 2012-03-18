@@ -10,3 +10,5 @@ Although the above paragragh suggests it should run anywhere, I'm unwilling to s
 
 It should work in any modern browser that supports HMTL5 audio tags.
 
+## Web-Page
+You can try the application out through your desktop or mobile webbrowser at [CBC Radio Player](caryan.github.com/CBC-Radio-Player). For seme reason Firefox doesn't render it particularly well.  Your best luck will be with a Webkit based browser like Chrome or Safari. 
