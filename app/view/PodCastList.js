@@ -12,7 +12,7 @@ Ext.define('CBCRadioPlayer.view.PodCastList',{
   	ui: 'podcasts',
     useComponents: true,
     defaultType: 'podcastlistitem',
-    deselectOnContainerClick: false,
+    disableSelection: true,
 
 	// items: [
         // {
