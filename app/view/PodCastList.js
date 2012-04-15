@@ -10,8 +10,6 @@ Ext.define('CBCRadioPlayer.view.PodCastList',{
   	title: 'PodCasts',
   	itemTpl: '{title}',
   	store: 'PodCasts',
-  	onItemDisclosure: true,
-  	disableSelection: true,
   	
 	items: [
         {

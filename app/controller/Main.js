@@ -12,13 +12,13 @@ Ext.define('CBCRadioPlayer.controller.Main', {
         },
         control: {
         	'localstationlist': {
-        		disclose: 'startLocalStationStream'
+        		select: 'startLocalStationStream'
         	},
         	'podcastlist': {
-        		disclose: 'showPodCastDetail'
+        		select: 'showPodCastDetail'
         	},
         	'podcastdetaillist': {
-        		disclose: 'startPodCastStream'
+        		select: 'startPodCastStream'
         	},
         	'#podcastsearchfield':{
         		keyup: 'onSearchKeyUp',
@@ -141,7 +141,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
      * Called when the user taps on the clear icon in the search field.
      * It simply removes the filter form the store
      */
-    onSearchClearIconTap: function() {
+    onSearchClearIconTap: function(field) {
         //call the clearFilter method on the store instance
         this.getPodCastList().getStore().clearFilter();
     }

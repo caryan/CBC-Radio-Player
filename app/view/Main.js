@@ -18,6 +18,7 @@ Ext.define('CBCRadioPlayer.view.Main', {
     extend: 'Ext.TabPanel', 
     xtype: 'mainpanel',
     id: 'mainTabPanel',
+    layout: 'fit',
     requires: ['CBCRadioPlayer.view.LocalStationList', 'CBCRadioPlayer.view.FavouritesList'],
 
     config: {
@@ -27,23 +28,22 @@ Ext.define('CBCRadioPlayer.view.Main', {
         {
         	title: 'Favourites',
         	iconCls: 'favorites',
-        	xtype: 'favouriteslist'
+        	xtype: 'favouriteslist',
         },
         {
             title: 'Local Stations',
             iconCls: 'tv',
-            xtype: 'localstationlist'
+            xtype: 'localstationlist',
         },
         {
             title: 'PodCasts',
             iconCls: 'podcast',
-            xtype: 'podcastsviewer'
+            xtype: 'podcastsviewer',
         },
         {
         	title: 'Now Playing',
         	iconCls: 'headphones',
-        	xtype: 'playercont'
- 
+        	xtype: 'playercont',
         }
     ]
     }
