@@ -20,6 +20,9 @@
   {
     "acronym": "R1_VCR", 
     "audioURLs": [
+      "http://4533.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
       "http://4673.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
       "http://4673.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
       "http://4673.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
@@ -53,9 +56,9 @@
   {
     "acronym": "R1_EDM", 
     "audioURLs": [
-      "http://1792.live.streamtheworld.com:80/CBC_R1_EDM_H_SC", 
-      "http://1792.live.streamtheworld.com:3690/CBC_R1_EDM_H_SC", 
-      "http://1792.live.streamtheworld.com:443/CBC_R1_EDM_H_SC"
+      "http://2073.live.streamtheworld.com:80/CBC_R1_EDM_H_SC", 
+      "http://2073.live.streamtheworld.com:3690/CBC_R1_EDM_H_SC", 
+      "http://2073.live.streamtheworld.com:443/CBC_R1_EDM_H_SC"
     ], 
     "cityName": "Edmonton"
   }, 
@@ -89,9 +92,9 @@
   {
     "acronym": "R1_LDN", 
     "audioURLs": [
-      "http://3623.live.streamtheworld.com:80/CBC_R1_LDN_H_SC", 
-      "http://3623.live.streamtheworld.com:3690/CBC_R1_LDN_H_SC", 
-      "http://3623.live.streamtheworld.com:443/CBC_R1_LDN_H_SC"
+      "http://3143.live.streamtheworld.com:80/CBC_R1_LDN_H_SC", 
+      "http://3143.live.streamtheworld.com:3690/CBC_R1_LDN_H_SC", 
+      "http://3143.live.streamtheworld.com:443/CBC_R1_LDN_H_SC"
     ], 
     "cityName": "London"
   }, 
@@ -125,9 +128,6 @@
   {
     "acronym": "R1_TOR", 
     "audioURLs": [
-      "http://1451.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
-      "http://1451.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
-      "http://1451.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://6093.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://6093.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://6093.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
@@ -137,6 +137,9 @@
       "http://6693.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://1451.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://1451.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://1451.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://1721.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://1721.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://1721.live.streamtheworld.com:443/CBC_R1_TOR_H_SC"
@@ -164,9 +167,9 @@
   {
     "acronym": "R1_N_MTL", 
     "audioURLs": [
-      "http://3623.live.streamtheworld.com:80/CBC_R1_N_MTL_H_SC", 
-      "http://3623.live.streamtheworld.com:3690/CBC_R1_N_MTL_H_SC", 
-      "http://3623.live.streamtheworld.com:443/CBC_R1_N_MTL_H_SC"
+      "http://1852.live.streamtheworld.com:80/CBC_R1_N_MTL_H_SC", 
+      "http://1852.live.streamtheworld.com:3690/CBC_R1_N_MTL_H_SC", 
+      "http://1852.live.streamtheworld.com:443/CBC_R1_N_MTL_H_SC"
     ], 
     "cityName": "Nord Quebec"
   }, 
@@ -209,9 +212,9 @@
   {
     "acronym": "R1_CHR", 
     "audioURLs": [
-      "http://1782.live.streamtheworld.com:80/CBC_R1_CHR_H_SC", 
-      "http://1782.live.streamtheworld.com:3690/CBC_R1_CHR_H_SC", 
-      "http://1782.live.streamtheworld.com:443/CBC_R1_CHR_H_SC"
+      "http://2953.live.streamtheworld.com:80/CBC_R1_CHR_H_SC", 
+      "http://2953.live.streamtheworld.com:3690/CBC_R1_CHR_H_SC", 
+      "http://2953.live.streamtheworld.com:443/CBC_R1_CHR_H_SC"
     ], 
     "cityName": "Charlottetown"
   }, 
