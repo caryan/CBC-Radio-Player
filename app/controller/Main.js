@@ -29,6 +29,12 @@ Ext.define('CBCRadioPlayer.controller.Main', {
        },
 
 	startLocalStationStream: function(list, record) {
+		
+		Ext.ComponentManager.get('showTitle').setHtml('<b>Live from ' + record.data.cityName + '</b>');
+		Ext.ComponentManager.get('showDescription').setHtml('');
+		Ext.ComponentManager.get('showImage').setSrc('');
+
+		
 		audioURLs = record.data.audioURLs;
 		var playerControls = Ext.ComponentManager.get('curPlayingControls')
 
@@ -67,9 +73,9 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		
 		var playerControls = Ext.ComponentManager.get('curPlayingControls')
 		
-		Ext.get('showTitle').setHtml('<b>' + record.data.title + '</b>');
-		Ext.get('showContent').setHtml(record.data.content);
-		Ext.get('showImage').dom.src = list.getStore().getImgLink();
+		Ext.ComponentManager.get('showTitle').setHtml('<b>' + record.data.title + '</b>');
+		Ext.ComponentManager.get('showDescription').setHtml(record.data.content);
+		Ext.ComponentManager.get('showImage').setSrc(list.getStore().getImgLink());
 
 		if (playerControls.isPlaying()) {
 			playerControls.stop();
