@@ -38,7 +38,10 @@ Ext.define('CBCRadioPlayer.controller.CurrentlyPlaying', {
 	}, 
 
 	stopButtonAction: function() {
-		Ext.ComponentManager.get('curPlayingControls').stop();
+		var playerControls = Ext.ComponentManager.get('curPlayingControls')
+		if (playerControls.isPlaying()) {
+			playerControls.stop();
+		}
 	}, 
 
 });
