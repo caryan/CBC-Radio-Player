@@ -20,10 +20,10 @@ Ext.define('CBCRadioPlayer.controller.Main', {
         	'podcastdetaillist': {
         		select: 'startPodCastStream'
         	},
-        	'#podcastsearchfield':{
-        		keyup: 'onSearchKeyUp',
-        		clearicontap: 'onSearchClearIconTap'
-        	}
+        	// '#podcastsearchfield':{
+        		// keyup: 'onSearchKeyUp',
+        		// clearicontap: 'onSearchClearIconTap'
+        	// }
         	
         	}
        },
