@@ -6,7 +6,7 @@ Ext.define('CBCRadioPlayer.controller.CurrentlyPlaying', {
 
     config: {
         refs: {
-        	curplayer: '#curPlayingControls',
+        	curPlayer: '#curPlayingControls',
         	playButton: '#playButton',
         	pauseButton: '#pauseButton',
         	stopButton: '#stopButton'
@@ -25,22 +25,23 @@ Ext.define('CBCRadioPlayer.controller.CurrentlyPlaying', {
       },
        
 	playButtonAction: function() {
-    	var playerControls = Ext.ComponentManager.get('curPlayingControls');
-    	if (playerControls.isLive)
-	    	{
-	    		playerControls.updateUrl(playerControls.getUrl())
-	    	}
-    	playerControls.play();
+    	if (this.getCurPlayer().getUrl() !== '') {
+	    	if (this.getCurPlayer().isLive) {
+		    		this.getCurPlayer().updateUrl(playerControls.getUrl())
+		    	}
+	    	this.getCurPlayer().play();
+    	}
 	}, 
 	
 	pauseButtonAction: function() {
-		Ext.ComponentManager.get('curPlayingControls').pause();
+   		if (this.getCurPlayer().isPlaying()) {
+	 		this.getCurPlayer().pause()
+	 		}
 	}, 
 
 	stopButtonAction: function() {
-		var playerControls = Ext.ComponentManager.get('curPlayingControls')
-		if (playerControls.isPlaying()) {
-			playerControls.stop();
+		if (this.getCurPlayer().isPlaying()) {
+			this.getCurPlayer().stop();
 		}
 	}, 
 

@@ -8,17 +8,19 @@ Ext.define('CBCRadioPlayer.controller.Main', {
         refs: {
         	CurPlayerContainer: 'playercont',
         	PodCastsViewer: 'podcastsviewer',
-        	PodCastList: 'podcastlist'
+        	PodCastList: 'podcastlist',
+        	curPlayer: '#curPlayingControls',
+
         },
         control: {
         	'localstationlist': {
-        		select: 'startLocalStationStream'
+        		itemtap: 'startLocalStationStream'
         	},
         	'podcastlist': {
-        		select: 'showPodCastDetail'
+        		itemtap: 'showPodCastDetail'
         	},
         	'podcastdetaillist': {
-        		select: 'startPodCastStream'
+        		itemtap: 'startPodCastStream'
         	},
         	// '#podcastsearchfield':{
         		// keyup: 'onSearchKeyUp',
@@ -28,28 +30,26 @@ Ext.define('CBCRadioPlayer.controller.Main', {
         	}
        },
 
-	startLocalStationStream: function(list, record) {
+	startLocalStationStream: function(list, index, target, record) {
 		
 		Ext.ComponentManager.get('showTitle').setHtml('<b>Live from ' + record.data.cityName + '</b>');
 		Ext.ComponentManager.get('showDescription').setHtml('');
 		Ext.ComponentManager.get('showImage').setSrc('');
 
-		
 		audioURLs = record.data.audioURLs;
-		var playerControls = Ext.ComponentManager.get('curPlayingControls')
 
-		if (playerControls.isPlaying()) {
-			playerControls.stop();
+		if (this.getCurPlayer().isPlaying()) {
+			this.getCurPlayer().stop();
 		}
-		playerControls.setUrl(audioURLs[0]);
-		playerControls.isLive = true;
-		playerControls.play();
+		this.getCurPlayer().setUrl(audioURLs[0]);
+		this.getCurPlayer().isLive = true;
+		this.getCurPlayer().play();
 
 		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
 
 	},
 
-	showPodCastDetail: function(list, record) {
+	showPodCastDetail: function(list, index, target, record) {
 		var curPodCastDetails = this.getPodCastsViewer().push({
 				xtype: 'podcastdetaillist',
 				title: record.data.title,
@@ -68,21 +68,19 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 			});
 	},
 	
-	startPodCastStream: function(list, record) {
+	startPodCastStream: function(list, index, target, record) {
 		audioURL = record.data.link;
-		
-		var playerControls = Ext.ComponentManager.get('curPlayingControls')
 		
 		Ext.ComponentManager.get('showTitle').setHtml('<b>' + record.data.title + '</b>');
 		Ext.ComponentManager.get('showDescription').setHtml(record.data.content);
 		Ext.ComponentManager.get('showImage').setSrc(list.getStore().getImgLink());
 
-		if (playerControls.isPlaying()) {
-			playerControls.stop();
+		if (this.getCurPlayer().isPlaying()) {
+			this.getCurPlayer().stop();
 		}
-		playerControls.setUrl(audioURL);
-		playerControls.isLive = false;
-		playerControls.play();
+		this.getCurPlayer().setUrl(audioURL);
+		this.getCurPlayer().isLive = false;
+		this.getCurPlayer().play();
 		
 		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
 		
