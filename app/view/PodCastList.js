@@ -2,15 +2,32 @@
 // License GPL v3 (http://www.gnu.org/licenses/gpl.txt) 
 
 Ext.define('CBCRadioPlayer.view.PodCastList',{
-  extend: 'Ext.List',
+  extend: 'Ext.DataView',
   xtype: 'podcastlist',
-  requires: ['CBCRadioPlayer.store.PodCasts'],
+  requires: ['CBCRadioPlayer.store.PodCasts', 'CBCRadioPlayer.view.PodCastListItem', 'Ext.field.Search'],
   
   config: {
   	title: 'PodCasts',
-  	itemTpl: '{title}',
   	store: 'PodCasts',
-  	onItemDisclosure: true,
-  	disableSelection: true
-  }
-})
+  	ui: 'podcasts',
+    useComponents: true,
+    defaultType: 'podcastlistitem',
+    disableSelection: true,
+
+	// items: [
+        // {
+            // xtype: 'toolbar',
+            // docked: 'top',
+// 
+            // items: [
+              	  // {
+                    // xtype: 'searchfield',
+                    // id: 'podcastsearchfield',
+                    // placeHolder: 'Search...'
+                	// }
+            	// ]
+    	    // }
+	    // ]
+	},
+	
+});

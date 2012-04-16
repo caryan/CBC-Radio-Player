@@ -6,39 +6,54 @@ Ext.define('CBCRadioPlayer.controller.CurrentlyPlaying', {
 
     config: {
         refs: {
-        	curplayer: '#curPlayingControls',
+        	curPlayer: '#curPlayingControls',
         	playButton: '#playButton',
         	pauseButton: '#pauseButton',
-        	stopButton: '#stopButton'
+        	stopButton: '#stopButton',
+        	addFavButton: '#addFavButton',
+        	favouritesList: '#favouriteslist'
         },
         control: {
         	playButton: {
-        		tap: 'playButtonAction'
+        		tap: 'play_button_action'
         	},
         	pauseButton: {
-        		tap: 'pauseButtonAction'
+        		tap: 'pause_button_action'
         	},
         	stopButton: {
-        		tap: 'stopButtonAction'
+        		tap: 'stop_button_action'
+        	},
+        	addFavButton:{
+        		tap: 'add_to_favourite_list'
         	}
         }
       },
        
-	playButtonAction: function() {
-    	var playerControls = Ext.ComponentManager.get('curPlayingControls');
-    	if (playerControls.isLive)
-	    	{
-	    		playerControls.updateUrl(playerControls.getUrl())
-	    	}
-    	playerControls.play();
+	play_button_action: function() {
+    	if (this.getCurPlayer().getUrl() !== '') {
+	    	if (this.getCurPlayer().isLive) {
+		    		this.getCurPlayer().updateUrl(this.getCurPlayer().getUrl())
+		    	}
+	    	this.getCurPlayer().play();
+    	}
 	}, 
 	
-	pauseButtonAction: function() {
-		Ext.ComponentManager.get('curPlayingControls').pause();
+	pause_button_action: function() {
+   		if (this.getCurPlayer().isPlaying()) {
+	 		this.getCurPlayer().pause()
+	 		}
 	}, 
 
-	stopButtonAction: function() {
-		Ext.ComponentManager.get('curPlayingControls').stop();
+	stop_button_action: function() {
+		if (this.getCurPlayer().isPlaying()) {
+			this.getCurPlayer().stop();
+		}
 	}, 
+	
+	add_to_favourite_list: function(){
+		//Add the favourite to the store
+		this.getFavouritesList().getStore().add(this.getCurPlayer().favInfo)
+		this.getFavouritesList().getStore().sync()
+	}
 
 });

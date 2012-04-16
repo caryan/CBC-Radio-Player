@@ -23,3 +23,38 @@
 @include pictos-iconmask(play1);
 @include pictos-iconmask(pause);
 @include pictos-iconmask(stop);
+
+@include sencha-toolbar-ui('gray', #ddd, 'matte');
+.x-toolbar-gray {
+  border-bottom-color: #555 !important;
+  height: auto;
+}
+
+
+.x-dataview-podcasts {
+  .x-img {
+    margin-right: 1em;
+    background-position: center center;
+    // border: 1px solid $complement;
+    width: 60px;
+    height: 60px;
+  }
+
+  .x-list-item {
+    padding: 1em;
+    border-bottom: 1px solid darken(#EEEEEE, 5);
+    -webkit-transition: linear .2s background;
+
+    .title div {
+      font-weight: bold;
+    }
+  }
+
+  .x-item-selected {
+    background: #fff;
+  }
+
+}
+
+
+

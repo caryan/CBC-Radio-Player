@@ -27,23 +27,23 @@ Ext.define('CBCRadioPlayer.view.Main', {
         {
         	title: 'Favourites',
         	iconCls: 'favorites',
-        	html: 'Should have a list of favourites here for quick launching.'
+        	xtype: 'favouriteslist',
+        	id: 'favouriteslist'
         },
         {
             title: 'Local Stations',
             iconCls: 'tv',
-            xtype: 'localstationlist'
+            xtype: 'localstationlist',
         },
         {
             title: 'PodCasts',
             iconCls: 'podcast',
-            xtype: 'podcastsviewer'
+            xtype: 'podcastsviewer',
         },
         {
         	title: 'Now Playing',
         	iconCls: 'headphones',
-        	xtype: 'playercont'
- 
+        	xtype: 'playercont',
         }
     ]
     }

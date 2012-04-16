@@ -10,7 +10,6 @@ Ext.define('CBCRadioPlayer.view.LocalStationList',{
   	title: 'Local Stations',
   	itemTpl: '{cityName}',
   	store: 'LocalStations',
-  	onItemDisclosure: true,
-  	disableSelection: true
+  	disableSelection: true,
   }
 })

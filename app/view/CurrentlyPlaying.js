@@ -5,22 +5,47 @@ Ext.define('CBCRadioPlayer.view.CurrentlyPlaying', {
 	extend: 'Ext.Container',
     layout: 'vbox',
     xtype: 'playercont',
-    requires: 'Ext.Audio',
+    requires: ['Ext.Audio', 'Ext.Img'],
     
     config: {
         scrollable: 'vertical',
     	items: [
     	{
     		xtype: 'titlebar',
-    		title: 'Now Playing....',
-    		docked: 'top'
+    		title: 'Now Playing',
+    		docked: 'top',
+    		items: [{
+    			id: 'addFavButton',
+    			iconCls: 'favorites',
+    			iconMask: true,
+    			align: 'right',
+    		}]
     	},
         {
             id: 'curPlayingPanel',
-            html: '<div id="showTitle"> <b>Nothing Playing Yet...</b></div> \
-            		<div style="width:30%;float:left"> <img id="showImage" src="" /></div> \
-            		<div id="showContent" style="width:70%;height:60%;float:left;overflow:auto"> Some description here. </div>',
-            		
+            layout: 'vbox',
+            items: [
+            {
+	            layout: 'hbox',
+	            items: [
+	        	{
+	        		xtype: 'image',
+	        		id: 'showImage',
+	        		src: '',
+	        		height: 125,
+	        		width: 125,
+	        	},
+	        	{
+	        		id: 'showTitle',
+	        		html: '<b>Nothing Playing Yet...</b>',
+	        		flex: 1,
+	        	}
+		        ]
+            },
+	        {
+	        	id: 'showDescription',
+	        }
+        	],
             flex: 2
         },
         {
@@ -38,7 +63,8 @@ Ext.define('CBCRadioPlayer.view.CurrentlyPlaying', {
             url: '',
             docked: 'bottom',
             hidden: true,
-            isLive: false
+            isLive: false,
+            favInfo: null
         }
     	]
     },
