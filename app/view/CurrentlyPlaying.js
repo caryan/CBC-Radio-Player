@@ -12,8 +12,14 @@ Ext.define('CBCRadioPlayer.view.CurrentlyPlaying', {
     	items: [
     	{
     		xtype: 'titlebar',
-    		title: 'Now Playing....',
-    		docked: 'top'
+    		title: 'Now Playing',
+    		docked: 'top',
+    		items: [{
+    			id: 'addFavButton',
+    			iconCls: 'favorites',
+    			iconMask: true,
+    			align: 'right',
+    		}]
     	},
         {
             id: 'curPlayingPanel',
@@ -57,7 +63,8 @@ Ext.define('CBCRadioPlayer.view.CurrentlyPlaying', {
             url: '',
             docked: 'bottom',
             hidden: true,
-            isLive: false
+            isLive: false,
+            favInfo: null
         }
     	]
     },

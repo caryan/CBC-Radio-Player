@@ -8,6 +8,7 @@ Ext.define('CBCRadioPlayer.view.PodCastDetailList' , {
 
 	config: {
 		title: 'PlaceHolder',
+		RSSFeed: null,
 		itemTpl: '<div><b>{title}</b></div> <div>{content}</div> <div><i>{publishedDate}</i></div>',
 		styleHtmlContent: true,
 		disableSelection: true,

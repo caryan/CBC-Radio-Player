@@ -6,10 +6,11 @@ Ext.define('CBCRadioPlayer.store.Favourites', {
     requires: 'Ext.data.proxy.LocalStorage',
     
     config: {
+    	autoLoad: true,
         model: 'CBCRadioPlayer.model.Favourite',
         proxy: {
         	type: 'localstorage',
-        	id: 'CBCRadio-favourites'
+        	id: 'CBCRadio-Favourites'
         }
     
     }
