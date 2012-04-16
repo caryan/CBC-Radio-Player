@@ -4,6 +4,6 @@
 Ext.define('CBCRadioPlayer.model.Favourite', {
     extend: 'Ext.data.Model',
     config: {
-        fields: ['displayName', 'streamType' ]
+        fields: ['displayName', 'isLive', 'audioURLs', 'cityName', 'title', 'RSSFeed', 'imgLink' ]
     }
 });

@@ -18,7 +18,6 @@ Ext.define('CBCRadioPlayer.view.Main', {
     extend: 'Ext.TabPanel', 
     xtype: 'mainpanel',
     id: 'mainTabPanel',
-    layout: 'fit',
     requires: ['CBCRadioPlayer.view.LocalStationList', 'CBCRadioPlayer.view.FavouritesList'],
 
     config: {
@@ -29,6 +28,7 @@ Ext.define('CBCRadioPlayer.view.Main', {
         	title: 'Favourites',
         	iconCls: 'favorites',
         	xtype: 'favouriteslist',
+        	id: 'favouriteslist'
         },
         {
             title: 'Local Stations',

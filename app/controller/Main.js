@@ -27,6 +27,10 @@ Ext.define('CBCRadioPlayer.controller.Main', {
         		// clearicontap: 'onSearchClearIconTap'
         	// }
         	
+        	'favouriteslist': {
+        		itemtap: 'favourite_runner'
+        	}
+        	
         	}
        },
 
@@ -43,6 +47,13 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		}
 		this.getCurPlayer().setUrl(audioURLs[0]);
 		this.getCurPlayer().isLive = true;
+		this.getCurPlayer().favInfo = {
+			displayName: 'Live from:  ' +  record.data.cityName,
+			isLive: true,
+			audioURLs: audioURLs,
+			cityName: record.data.cityName,
+			};
+		
 		this.getCurPlayer().play();
 
 		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
@@ -53,6 +64,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		var curPodCastDetails = this.getPodCastsViewer().push({
 				xtype: 'podcastdetaillist',
 				title: record.data.title,
+				RSSFeed: record.data.RSSFeed,
 				store: {
 					xtype: 'podcastdetails',
 					imgLink: record.data.imgLink,
@@ -80,10 +92,32 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		}
 		this.getCurPlayer().setUrl(audioURL);
 		this.getCurPlayer().isLive = false;
+		this.getCurPlayer().favInfo = {
+			displayName: 'Podcast:  ' +  list.getTitle(),
+			isLive: false,
+			audioURLs: null,
+			title: list.getTitle(),
+			imgLink: list.getStore().getImgLink(),
+			RSSFeed: list.getRSSFeed(),
+		};
+		
 		this.getCurPlayer().play();
 		
 		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
 		
+	},
+	
+	
+	favourite_runner: function(list, index, target, record){
+		
+		//If it is a live stream then pass it to the startLocalStationStream
+		if (record.data.isLive) {
+		this.startLocalStationStream(null, null, null, record);
+		}
+		else{
+		this.showPodCastDetail(null, null, null, record);
+		Ext.ComponentManager.get('mainTabPanel').setActiveItem(2);
+		}
 	},
 	
 	   /**
