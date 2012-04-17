@@ -38,7 +38,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		
 		Ext.ComponentManager.get('showTitle').setHtml('<b>Live from ' + record.data.cityName + '</b>');
 		Ext.ComponentManager.get('showDescription').setHtml('');
-		Ext.ComponentManager.get('showImage').setSrc('');
+		Ext.ComponentManager.get('showImage').setSrc(record.data.imgLink);
 
 		audioURLs = record.data.audioURLs;
 
@@ -52,6 +52,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 			isLive: true,
 			audioURLs: audioURLs,
 			cityName: record.data.cityName,
+			imgLink: record.data.imgLink,
 			};
 		
 		this.getCurPlayer().play();
