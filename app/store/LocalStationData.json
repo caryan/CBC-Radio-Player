@@ -6,7 +6,8 @@
       "http://2643.live.streamtheworld.com:3690/CBC_R1_KEL_H_SC", 
       "http://2643.live.streamtheworld.com:443/CBC_R1_KEL_H_SC"
     ], 
-    "cityName": "Kelowna"
+    "cityName": "Kelowna", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_PRG", 
@@ -15,25 +16,27 @@
       "http://2563.live.streamtheworld.com:3690/CBC_R1_PRG_H_SC", 
       "http://2563.live.streamtheworld.com:443/CBC_R1_PRG_H_SC"
     ], 
-    "cityName": "Prince George"
+    "cityName": "Prince George", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_VCR", 
     "audioURLs": [
-      "http://4533.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
-      "http://4533.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
-      "http://4533.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
-      "http://4673.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
-      "http://4673.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
-      "http://4673.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
       "http://2723.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
       "http://2723.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
       "http://2723.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
       "http://7289.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
       "http://7289.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
-      "http://7289.live.streamtheworld.com:443/CBC_R1_VCR_H_SC"
+      "http://7289.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
+      "http://4673.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://4673.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://4673.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:443/CBC_R1_VCR_H_SC"
     ], 
-    "cityName": "Vancouver"
+    "cityName": "Vancouver", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_VIC", 
@@ -42,7 +45,8 @@
       "http://2303.live.streamtheworld.com:3690/CBC_R1_VIC_H_SC", 
       "http://2303.live.streamtheworld.com:443/CBC_R1_VIC_H_SC"
     ], 
-    "cityName": "Victoria"
+    "cityName": "Victoria", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_CGY", 
@@ -51,7 +55,8 @@
       "http://1651.live.streamtheworld.com:3690/CBC_R1_CGY_H_SC", 
       "http://1651.live.streamtheworld.com:443/CBC_R1_CGY_H_SC"
     ], 
-    "cityName": "Calgary"
+    "cityName": "Calgary", 
+    "imgLink": "http://www.cbc.ca/calgary/images/hosts/frequency.png"
   }, 
   {
     "acronym": "R1_EDM", 
@@ -60,7 +65,8 @@
       "http://2073.live.streamtheworld.com:3690/CBC_R1_EDM_H_SC", 
       "http://2073.live.streamtheworld.com:443/CBC_R1_EDM_H_SC"
     ], 
-    "cityName": "Edmonton"
+    "cityName": "Edmonton", 
+    "imgLink": "http://www.cbc.ca/edmonton/images/hosts/frequency.png"
   }, 
   {
     "acronym": "R1_REG", 
@@ -69,7 +75,8 @@
       "http://1671.live.streamtheworld.com:3690/CBC_R1_REG_H_SC", 
       "http://1671.live.streamtheworld.com:443/CBC_R1_REG_H_SC"
     ], 
-    "cityName": "Regina"
+    "cityName": "Regina", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_REG", 
@@ -78,7 +85,8 @@
       "http://1671.live.streamtheworld.com:3690/CBC_R1_REG_H_SC", 
       "http://1671.live.streamtheworld.com:443/CBC_R1_REG_H_SC"
     ], 
-    "cityName": "Saskatoon"
+    "cityName": "Saskatoon", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_WPG", 
@@ -87,7 +95,8 @@
       "http://2363.live.streamtheworld.com:3690/CBC_R1_WPG_H_SC", 
       "http://2363.live.streamtheworld.com:443/CBC_R1_WPG_H_SC"
     ], 
-    "cityName": "Winnipeg"
+    "cityName": "Winnipeg", 
+    "imgLink": "http://www.cbc.ca/manitoba/images/masthead/frequency.png"
   }, 
   {
     "acronym": "R1_LDN", 
@@ -96,7 +105,8 @@
       "http://3143.live.streamtheworld.com:3690/CBC_R1_LDN_H_SC", 
       "http://3143.live.streamtheworld.com:443/CBC_R1_LDN_H_SC"
     ], 
-    "cityName": "London"
+    "cityName": "London", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_OTT", 
@@ -105,7 +115,8 @@
       "http://1671.live.streamtheworld.com:3690/CBC_R1_OTT_H_SC", 
       "http://1671.live.streamtheworld.com:443/CBC_R1_OTT_H_SC"
     ], 
-    "cityName": "Ottawa"
+    "cityName": "Ottawa", 
+    "imgLink": "http://www.cbc.ca/ottawa/images/masthead/frequency.png"
   }, 
   {
     "acronym": "R1_SUD", 
@@ -114,7 +125,8 @@
       "http://1531.live.streamtheworld.com:3690/CBC_R1_SUD_H_SC", 
       "http://1531.live.streamtheworld.com:443/CBC_R1_SUD_H_SC"
     ], 
-    "cityName": "Sudbury"
+    "cityName": "Sudbury", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_TBA", 
@@ -123,20 +135,21 @@
       "http://1671.live.streamtheworld.com:3690/CBC_R1_TBA_H_SC", 
       "http://1671.live.streamtheworld.com:443/CBC_R1_TBA_H_SC"
     ], 
-    "cityName": "Thunder Bay"
+    "cityName": "Thunder Bay", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_TOR", 
     "audioURLs": [
-      "http://6093.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
-      "http://6093.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
-      "http://6093.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://4293.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://4293.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://4293.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://1451.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://1451.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://1451.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
@@ -144,7 +157,8 @@
       "http://1721.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://1721.live.streamtheworld.com:443/CBC_R1_TOR_H_SC"
     ], 
-    "cityName": "Toronto"
+    "cityName": "Toronto", 
+    "imgLink": "http://www.cbc.ca/toronto/images/masthead/frequency.png"
   }, 
   {
     "acronym": "R1_WDR", 
@@ -153,7 +167,8 @@
       "http://2093.live.streamtheworld.com:3690/CBC_R1_WDR_H_SC", 
       "http://2093.live.streamtheworld.com:443/CBC_R1_WDR_H_SC"
     ], 
-    "cityName": "Windsor"
+    "cityName": "Windsor", 
+    "imgLink": "http://www.cbc.ca/windsor/images/masthead/frequency.png"
   }, 
   {
     "acronym": "R1_MTL", 
@@ -162,7 +177,8 @@
       "http://1741.live.streamtheworld.com:3690/CBC_R1_MTL_H_SC", 
       "http://1741.live.streamtheworld.com:443/CBC_R1_MTL_H_SC"
     ], 
-    "cityName": "Montreal"
+    "cityName": "Montreal", 
+    "imgLink": "http://www.cbc.ca/montreal/images/masthead/frequency.png"
   }, 
   {
     "acronym": "R1_N_MTL", 
@@ -171,7 +187,8 @@
       "http://1852.live.streamtheworld.com:3690/CBC_R1_N_MTL_H_SC", 
       "http://1852.live.streamtheworld.com:443/CBC_R1_N_MTL_H_SC"
     ], 
-    "cityName": "Nord Quebec"
+    "cityName": "Nord Quebec", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_QQU", 
@@ -180,7 +197,8 @@
       "http://2953.live.streamtheworld.com:3690/CBC_R1_QQU_H_SC", 
       "http://2953.live.streamtheworld.com:443/CBC_R1_QQU_H_SC"
     ], 
-    "cityName": "Quebec City"
+    "cityName": "Quebec City", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_FRD", 
@@ -189,7 +207,8 @@
       "http://2913.live.streamtheworld.com:3690/CBC_R1_FRD_H_SC", 
       "http://2913.live.streamtheworld.com:443/CBC_R1_FRD_H_SC"
     ], 
-    "cityName": "Fredericton"
+    "cityName": "Fredericton", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_MCT", 
@@ -198,7 +217,8 @@
       "http://1531.live.streamtheworld.com:3690/CBC_R1_MCT_H_SC", 
       "http://1531.live.streamtheworld.com:443/CBC_R1_MCT_H_SC"
     ], 
-    "cityName": "Moncton"
+    "cityName": "Moncton", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_SNB", 
@@ -207,7 +227,8 @@
       "http://3143.live.streamtheworld.com:3690/CBC_R1_SNB_H_SC", 
       "http://3143.live.streamtheworld.com:443/CBC_R1_SNB_H_SC"
     ], 
-    "cityName": "Saint John"
+    "cityName": "Saint John", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_CHR", 
@@ -216,7 +237,8 @@
       "http://2953.live.streamtheworld.com:3690/CBC_R1_CHR_H_SC", 
       "http://2953.live.streamtheworld.com:443/CBC_R1_CHR_H_SC"
     ], 
-    "cityName": "Charlottetown"
+    "cityName": "Charlottetown", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_SYD", 
@@ -225,7 +247,8 @@
       "http://2963.live.streamtheworld.com:3690/CBC_R1_SYD_H_SC", 
       "http://2963.live.streamtheworld.com:443/CBC_R1_SYD_H_SC"
     ], 
-    "cityName": "Cape Breton"
+    "cityName": "Cape Breton", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_HFX", 
@@ -234,7 +257,8 @@
       "http://3383.live.streamtheworld.com:3690/CBC_R1_HFX_H_SC", 
       "http://3383.live.streamtheworld.com:443/CBC_R1_HFX_H_SC"
     ], 
-    "cityName": "Halifax"
+    "cityName": "Halifax", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_COR", 
@@ -243,7 +267,8 @@
       "http://3373.live.streamtheworld.com:3690/CBC_R1_COR_H_SC", 
       "http://3373.live.streamtheworld.com:443/CBC_R1_COR_H_SC"
     ], 
-    "cityName": "Corner Brook"
+    "cityName": "Corner Brook", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_GFA", 
@@ -252,7 +277,8 @@
       "http://2093.live.streamtheworld.com:3690/CBC_R1_GFA_H_SC", 
       "http://2093.live.streamtheworld.com:443/CBC_R1_GFA_H_SC"
     ], 
-    "cityName": "Gander"
+    "cityName": "Gander", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_GBA", 
@@ -261,7 +287,8 @@
       "http://2893.live.streamtheworld.com:3690/CBC_R1_GBA_H_SC", 
       "http://2893.live.streamtheworld.com:443/CBC_R1_GBA_H_SC"
     ], 
-    "cityName": "Labrador"
+    "cityName": "Labrador", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_SNF", 
@@ -270,7 +297,8 @@
       "http://2963.live.streamtheworld.com:3690/CBC_R1_SNF_H_SC", 
       "http://2963.live.streamtheworld.com:443/CBC_R1_SNF_H_SC"
     ], 
-    "cityName": "St John's"
+    "cityName": "St John's", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_INK", 
@@ -279,7 +307,8 @@
       "http://3593.live.streamtheworld.com:3690/CBC_R1_INK_H_SC", 
       "http://3593.live.streamtheworld.com:443/CBC_R1_INK_H_SC"
     ], 
-    "cityName": "Inuvik"
+    "cityName": "Inuvik", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R1_YKN", 
@@ -288,7 +317,8 @@
       "http://2953.live.streamtheworld.com:3690/CBC_R1_YKN_H_SC", 
       "http://2953.live.streamtheworld.com:443/CBC_R1_YKN_H_SC"
     ], 
-    "cityName": "Yellowknife"
+    "cityName": "Yellowknife", 
+    "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
   }, 
   {
     "acronym": "R2_HFX", 
@@ -297,7 +327,8 @@
       "http://3143.live.streamtheworld.com:3690/CBC_R2_HFX_H_SC", 
       "http://3143.live.streamtheworld.com:443/CBC_R2_HFX_H_SC"
     ], 
-    "cityName": "Radio 2: Atlantic"
+    "cityName": "Radio 2: Atlantic", 
+    "imgLink": "http://www.cbc.ca/asianheritage/images-blog/cbc_radio_two.jpg"
   }, 
   {
     "acronym": "R2_TOR", 
@@ -306,7 +337,8 @@
       "http://2073.live.streamtheworld.com:3690/CBC_R2_TOR_H_SC", 
       "http://2073.live.streamtheworld.com:443/CBC_R2_TOR_H_SC"
     ], 
-    "cityName": "Radio 2: Eastern"
+    "cityName": "Radio 2: Eastern", 
+    "imgLink": "http://www.cbc.ca/asianheritage/images-blog/cbc_radio_two.jpg"
   }, 
   {
     "acronym": "R2_WPG", 
@@ -315,7 +347,8 @@
       "http://2583.live.streamtheworld.com:3690/CBC_R2_WPG_H_SC", 
       "http://2583.live.streamtheworld.com:443/CBC_R2_WPG_H_SC"
     ], 
-    "cityName": "Radio 2: Central"
+    "cityName": "Radio 2: Central", 
+    "imgLink": "http://www.cbc.ca/asianheritage/images-blog/cbc_radio_two.jpg"
   }, 
   {
     "acronym": "R2_EDM", 
@@ -324,7 +357,8 @@
       "http://1671.live.streamtheworld.com:3690/CBC_R2_EDM_H_SC", 
       "http://1671.live.streamtheworld.com:443/CBC_R2_EDM_H_SC"
     ], 
-    "cityName": "Radio 2: Mountain"
+    "cityName": "Radio 2: Mountain", 
+    "imgLink": "http://www.cbc.ca/asianheritage/images-blog/cbc_radio_two.jpg"
   }, 
   {
     "acronym": "R2_VCR", 
@@ -333,6 +367,7 @@
       "http://2583.live.streamtheworld.com:3690/CBC_R2_VCR_H_SC", 
       "http://2583.live.streamtheworld.com:443/CBC_R2_VCR_H_SC"
     ], 
-    "cityName": "Radio 2: Pacific"
+    "cityName": "Radio 2: Pacific", 
+    "imgLink": "http://www.cbc.ca/asianheritage/images-blog/cbc_radio_two.jpg"
   }
 ]

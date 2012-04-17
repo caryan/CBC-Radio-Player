@@ -38,7 +38,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		
 		Ext.ComponentManager.get('showTitle').setHtml('<b>Live from ' + record.data.cityName + '</b>');
 		Ext.ComponentManager.get('showDescription').setHtml('');
-		Ext.ComponentManager.get('showImage').setSrc('');
+		Ext.ComponentManager.get('showImage').setSrc(record.data.imgLink);
 
 		audioURLs = record.data.audioURLs;
 
@@ -48,10 +48,11 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		this.getCurPlayer().setUrl(audioURLs[0]);
 		this.getCurPlayer().isLive = true;
 		this.getCurPlayer().favInfo = {
-			displayName: 'Live from:  ' +  record.data.cityName,
+			displayName: 'Live from ' +  record.data.cityName,
 			isLive: true,
 			audioURLs: audioURLs,
 			cityName: record.data.cityName,
+			imgLink: record.data.imgLink,
 			};
 		
 		this.getCurPlayer().play();
@@ -83,28 +84,38 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 	startPodCastStream: function(list, index, target, record) {
 		audioURL = record.data.link;
 		
-		Ext.ComponentManager.get('showTitle').setHtml('<b>' + record.data.title + '</b>');
-		Ext.ComponentManager.get('showDescription').setHtml(record.data.content);
-		Ext.ComponentManager.get('showImage').setSrc(list.getStore().getImgLink());
-
-		if (this.getCurPlayer().isPlaying()) {
-			this.getCurPlayer().stop();
+		//Hack work-around for broken World at Six links
+		if (record.data.title.substring(0,22) == "CBC News: World at Six"){
+			audioURL = 'http://podcast.cbc.ca/w6/worldatsix.mp3'
 		}
-		this.getCurPlayer().setUrl(audioURL);
-		this.getCurPlayer().isLive = false;
-		this.getCurPlayer().favInfo = {
-			displayName: 'Podcast:  ' +  list.getTitle(),
-			isLive: false,
-			audioURLs: null,
-			title: list.getTitle(),
-			imgLink: list.getStore().getImgLink(),
-			RSSFeed: list.getRSSFeed(),
-		};
 		
-		this.getCurPlayer().play();
-		
-		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
-		
+		// Check we have something valid before continuing
+		if (audioURL == ""){
+			Ext.Msg.alert('Uhoh!', 'The podcast location is broken.', Ext.emptyFn);
+		}
+		else{
+			Ext.ComponentManager.get('showTitle').setHtml('<b>' + record.data.title + '</b>');
+			Ext.ComponentManager.get('showDescription').setHtml(record.data.content);
+			Ext.ComponentManager.get('showImage').setSrc(list.getStore().getImgLink());
+	
+			if (this.getCurPlayer().isPlaying()) {
+				this.getCurPlayer().stop();
+			}
+			this.getCurPlayer().setUrl(audioURL);
+			this.getCurPlayer().isLive = false;
+			this.getCurPlayer().favInfo = {
+				displayName: list.getTitle(),
+				isLive: false,
+				audioURLs: null,
+				title: list.getTitle(),
+				imgLink: list.getStore().getImgLink(),
+				RSSFeed: list.getRSSFeed(),
+			};
+			
+			this.getCurPlayer().play();
+			
+			Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
+		}
 	},
 	
 	

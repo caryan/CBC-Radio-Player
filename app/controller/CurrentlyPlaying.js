@@ -30,23 +30,35 @@ Ext.define('CBCRadioPlayer.controller.CurrentlyPlaying', {
       },
        
 	play_button_action: function() {
-    	if (this.getCurPlayer().getUrl() !== '') {
-	    	if (this.getCurPlayer().isLive) {
-		    		this.getCurPlayer().updateUrl(this.getCurPlayer().getUrl())
-		    	}
-	    	this.getCurPlayer().play();
-    	}
+		if (!this.getCurPlayer().isPlaying()){
+			if (this.getCurPlayer().getUrl() !== '') {
+		    	if (this.getCurPlayer().isLive) {
+			    		this.getCurPlayer().updateUrl(this.getCurPlayer().streamURL)
+			    	}
+		    	this.getCurPlayer().play();
+	    	}
+	    }
 	}, 
 	
 	pause_button_action: function() {
    		if (this.getCurPlayer().isPlaying()) {
 	 		this.getCurPlayer().pause()
+			//If we are live then we have to set the stream URL to '' to stop data 
+			if (this.getCurPlayer().isLive){
+				this.getCurPlayer().streamURL = this.getCurPlayer().getUrl()
+				this.getCurPlayer().updateUrl('')
+			}
 	 		}
 	}, 
 
 	stop_button_action: function() {
 		if (this.getCurPlayer().isPlaying()) {
 			this.getCurPlayer().stop();
+			//If we are live then we have to set the stream URL to '' to stop data 
+			if (this.getCurPlayer().isLive){
+				this.getCurPlayer().streamURL = this.getCurPlayer().getUrl()
+				this.getCurPlayer().updateUrl('')
+			}
 		}
 	}, 
 	
@@ -54,6 +66,8 @@ Ext.define('CBCRadioPlayer.controller.CurrentlyPlaying', {
 		//Add the favourite to the store
 		this.getFavouritesList().getStore().add(this.getCurPlayer().favInfo)
 		this.getFavouritesList().getStore().sync()
+		//Let the user know something happened.
+		Ext.Msg.alert('Added to Favourites', 'Added ' + this.getCurPlayer().favInfo.displayName + ' to the favourites panel.', Ext.emptyFn);
 	}
 
 });
