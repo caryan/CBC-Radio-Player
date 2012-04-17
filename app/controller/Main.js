@@ -48,7 +48,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		this.getCurPlayer().setUrl(audioURLs[0]);
 		this.getCurPlayer().isLive = true;
 		this.getCurPlayer().favInfo = {
-			displayName: 'Live from:  ' +  record.data.cityName,
+			displayName: 'Live from ' +  record.data.cityName,
 			isLive: true,
 			audioURLs: audioURLs,
 			cityName: record.data.cityName,
@@ -94,7 +94,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 		this.getCurPlayer().setUrl(audioURL);
 		this.getCurPlayer().isLive = false;
 		this.getCurPlayer().favInfo = {
-			displayName: 'Podcast:  ' +  list.getTitle(),
+			displayName: list.getTitle(),
 			isLive: false,
 			audioURLs: null,
 			title: list.getTitle(),

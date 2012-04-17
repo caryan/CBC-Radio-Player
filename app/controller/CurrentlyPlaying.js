@@ -66,6 +66,8 @@ Ext.define('CBCRadioPlayer.controller.CurrentlyPlaying', {
 		//Add the favourite to the store
 		this.getFavouritesList().getStore().add(this.getCurPlayer().favInfo)
 		this.getFavouritesList().getStore().sync()
+		//Let the user know something happened.
+		Ext.Msg.alert('Added to Favourites', 'Added ' + this.getCurPlayer().favInfo.displayName + ' to the favourites panel.', Ext.emptyFn);
 	}
 
 });
