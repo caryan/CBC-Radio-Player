@@ -22,18 +22,21 @@
   {
     "acronym": "R1_VCR", 
     "audioURLs": [
-      "http://4673.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
-      "http://4673.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
-      "http://4673.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
       "http://2723.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
       "http://2723.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
       "http://2723.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
+      "http://8333.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://8333.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://8333.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://4533.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
       "http://7289.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
       "http://7289.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
       "http://7289.live.streamtheworld.com:443/CBC_R1_VCR_H_SC", 
-      "http://4533.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
-      "http://4533.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
-      "http://4533.live.streamtheworld.com:443/CBC_R1_VCR_H_SC"
+      "http://4673.live.streamtheworld.com:80/CBC_R1_VCR_H_SC", 
+      "http://4673.live.streamtheworld.com:3690/CBC_R1_VCR_H_SC", 
+      "http://4673.live.streamtheworld.com:443/CBC_R1_VCR_H_SC"
     ], 
     "cityName": "Vancouver", 
     "imgLink": "http://www.cbc.ca/bc/images/masthead/radioone.png"
@@ -141,18 +144,18 @@
   {
     "acronym": "R1_TOR", 
     "audioURLs": [
-      "http://4293.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
-      "http://4293.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
-      "http://4293.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://6093.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://6693.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://8283.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://8283.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://8283.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
-      "http://6093.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
-      "http://6093.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
-      "http://6093.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
+      "http://4293.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
+      "http://4293.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
+      "http://4293.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
       "http://1451.live.streamtheworld.com:80/CBC_R1_TOR_H_SC", 
       "http://1451.live.streamtheworld.com:3690/CBC_R1_TOR_H_SC", 
       "http://1451.live.streamtheworld.com:443/CBC_R1_TOR_H_SC", 
@@ -186,9 +189,6 @@
   {
     "acronym": "R1_N_MTL", 
     "audioURLs": [
-      "http://1792.live.streamtheworld.com:80/CBC_R1_N_MTL_H_SC", 
-      "http://1792.live.streamtheworld.com:3690/CBC_R1_N_MTL_H_SC", 
-      "http://1792.live.streamtheworld.com:443/CBC_R1_N_MTL_H_SC", 
       "http://1852.live.streamtheworld.com:80/CBC_R1_N_MTL_H_SC", 
       "http://1852.live.streamtheworld.com:3690/CBC_R1_N_MTL_H_SC", 
       "http://1852.live.streamtheworld.com:443/CBC_R1_N_MTL_H_SC"
