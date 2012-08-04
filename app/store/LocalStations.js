@@ -12,7 +12,7 @@ Ext.define('CBCRadioPlayer.store.LocalStations', {
         autoLoad: true,
         proxy: {
         	type: 'ajax',
-        	url: 'app/store/LocalStationData.json',
+        	url: 'resources/stationData/LocalStationData.json',
         	reader: {
         		type: 'json'
         	}
