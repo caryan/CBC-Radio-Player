@@ -90,7 +90,8 @@
     "resources": [
         "resources/images",
         "resources/icons",
-        "resources/startup"
+        "resources/startup",
+        "resources/stationData"
     ],
 
     /**
@@ -123,7 +124,7 @@
         "product": "touch",
         "minVersion": 3,
         "debug": false,
-        "logger": "no"
+        "logger": false
     },
 
     /**
