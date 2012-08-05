@@ -21,7 +21,7 @@
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/bandwidth.xml", 
     "description": "Every week, Spark producer and technology columnist Anshuman Iddamsetty examines the larger stories behind our ever-evolving digital landscape.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-bandwidth-sm.jpg", 
-    "title": "Bandwidth"
+    "title": "Bandwidth (Technology)"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/mediafeeds/rss/cbc/atissue-video-podcast.xml", 
@@ -94,6 +94,18 @@
     "description": "Toute une \u00e8quipe met son expertise en commun pour faire \u00e8tat des finances, des march\u00e8s, des entreprises, de la consommation, bref, de tout ce qui a trait \u00e0  l'argent. Une r\u00e8alit\u00e8 complexe qui nous concerne tous au quotidien. \r\n      Fr\u00e9quence de publication : Quotidienne\n\n\u00a0RSS\n \r\n\u00a0 \n\n\u00a0Abonnez-vous dans iTunes\u00a0\u00a0\u00c9coutez les \u00e9pisodes", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-classeeconomique-sm.jpg", 
     "title": "Classe \u00c8conomique"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/fearitself.xml", 
+    "description": "Fear Itself goes into the realm of our most profound terrors by exploring why we are equally drawn to and repelled by fear. Host Christy Ann Conlin lives in that world as a writer of horror and ghost stories.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-fearitself-sm.jpg", 
+    "title": "Fear Itself"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/gamechanger.xml", 
+    "description": "Game Changer is The Current's special series from this past season. Hosted by Anna Maria Tremonti, the show explores stories of the people, events and ideas that have fundamentally changed the world.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-gamechanger-sm.jpg", 
+    "title": "Game Changer"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/thehouse.xml", 
@@ -214,12 +226,6 @@
     "description": "Host Mark Forsythe connects British Columbians as they share stories and ideas about what they have in common and what makes them different.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-bcalmanac-sm.jpg", 
     "title": "B.C. Almanac"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio1/earlier/standard/index.xml", 
-    "description": "Once a week, Earlier host Lee Rosevere features a new discovery or classic favourite Canadian artist from his personal playlist.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-earlier-sm.jpg", 
-    "title": "B.C. Earlier"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/bcearlyedition.xml", 
@@ -426,6 +432,12 @@
     "title": "Sudbury: Morning North"
   }, 
   {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/superiormorning.xml", 
+    "description": "Superior Morning with Lisa Laco kicks off the CBC day in Thunder Bay and northwestern Ontario with compelling, relevant, must hear stories. We reflect the full diversity of our city, provide a local lens on the country and world, and showcase our original journalism.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-superiormorning-sm.jpg", 
+    "title": "Thunder Bay: Superior Morning"
+  }, 
+  {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/metromorning.xml", 
     "description": "Metro Morning with Matt Galloway keeps listeners informed about what's going on in Toronto and offers listeners an optimistic, sometimes humorous view of the world, together with the day's more serious news.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-metromorning-sm.jpg", 
@@ -481,15 +493,9 @@
   }, 
   {
     "RSSFeed": "http://qtv.blip.tv/rss", 
-    "description": "QTV is the televised version of CBC Radio One's Q with Jian Ghomeshi, which also airs on CBC's bold tv.  Featuring full length interviews with celebrities and personalities in the worlds of arts, culture and entertainment.  The video podcast brings you the best interviews for you to download and watch.  Check it out.", 
+    "description": "Step into the world of arts, cultural affairs and entertainment with Q's Video Podcast. Subscribe to feature interviews with the people and personalities shaping, captivating, and challenging culture, delivered to your mobile device 3 times a week.", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-qtv-sm.jpg", 
     "title": "Q: The Video Podcast"
-  }, 
-  {
-    "RSSFeed": "http://www.cbc.ca/podcasting/includes/radio1/aboriginals/standard/index.xml", 
-    "description": "Ab-Originals is a weekly podcast of the hottest Aboriginal music in Canada. Four of the best-known musical hosts in Indian Country will bring you live concerts, urban and hip-hop music, top 10 chart artists, and all the rest of it in their musical podlatch.", 
-    "imgLink": "http://www.cbc.ca/podcasting/images/promo-radio3aboriginals-sm.jpg", 
-    "title": "CBC Radio 3 Ab-Originals"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/satnightblues.xml", 
@@ -514,6 +520,12 @@
     "description": "The stories and misadventures of Dave, the owner of the \"Vinyl Cafe\", the world's smallest record store, where the motto is \"We may not be big, but we're small.\"", 
     "imgLink": "http://www.cbc.ca/podcasting/images/promo-vinylcafe-sm.jpg", 
     "title": "Vinyl Cafe Stories"
+  }, 
+  {
+    "RSSFeed": "http://www.cbc.ca/podcasting/includes/wildside.xml", 
+    "description": "CBC Radio 3 host Grant Lawrence takes listeners to The Wild Side in story and song, as Canadians walk, hike, swim, kayak, climb, canoe and skydive across our country and live to tell the tale. Why do you ask? It's because it's in our nature.", 
+    "imgLink": "http://www.cbc.ca/podcasting/images/promo-thewildside-sm.jpg", 
+    "title": "The Wild Side"
   }, 
   {
     "RSSFeed": "http://www.cbc.ca/podcasting/includes/wiretap.xml", 

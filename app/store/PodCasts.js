@@ -11,7 +11,7 @@ Ext.define('CBCRadioPlayer.store.PodCasts', {
         autoLoad: true,
         proxy: {
         	type: 'ajax',
-        	url: 'app/store/PodCastData.json',
+        	url: 'resources/stationData/PodCastData.json',
         	reader: {
         		type: 'json'
         	}
