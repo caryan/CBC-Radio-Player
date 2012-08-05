@@ -4,11 +4,9 @@ This is a bare-bones HTML5 application built on Sench Touch. It was mainly done 
 ## Supported browsers
 Although the above paragragh suggests it should run anywhere, I'm unwilling to support all the edge cases.  So far it has been tested in: 
 
-* Chrome
+* Chrome (Desktop and Android)
 * Safari
 * Mobile Safari
 
-It should work in any modern browser that supports HMTL5 audio tags.
-
 ## Web-Page
-You can try the application out through your desktop or mobile webbrowser at [CBC Radio Player](http://caryan.github.com/CBC-Radio-Player). For seme reason Firefox doesn't render it particularly well.  Your best luck will be with a Webkit based browser like Chrome or Safari. 
+You can try the application out through your desktop or mobile webbrowser at [CBC Radio Player](http://caryan.github.com/CBC-Radio-Player). Your best luck will be with a Webkit based browser like Chrome or Safari. 
