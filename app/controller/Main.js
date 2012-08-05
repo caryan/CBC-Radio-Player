@@ -71,7 +71,7 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 					imgLink: record.data.imgLink,
 					proxy: {
 						type: 'jsonp',
-						url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=-1&q=' + record.data.RSSFeed,
+						url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=20&q=' + record.data.RSSFeed,
 						reader: {
 							type: 'json',
 							rootProperty: 'responseData.feed.entries'
