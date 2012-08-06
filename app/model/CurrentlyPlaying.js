@@ -3,6 +3,8 @@
 
 Ext.define('CBCRadioPlayer.model.CurrentlyPlaying', {
     extend: 'Ext.data.Model',
+    xtype: 'currentlyplaying',
+    
     config: {
         fields: ['title',
         		 'isLive',

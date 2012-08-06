@@ -1,8 +1,8 @@
 Ext.application({
     name: 'CBCRadioPlayer',
 
-    requires: [
-        'Ext.MessageBox'
+    requires: [ 
+        'Ext.MessageBox', 'Ext.Audio'
     ],
 
     controllers: ['Main', 'CurrentlyPlaying'],
