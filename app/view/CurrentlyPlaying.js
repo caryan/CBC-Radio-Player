@@ -5,9 +5,10 @@ Ext.define('CBCRadioPlayer.view.CurrentlyPlaying', {
 	extend: 'Ext.Container',
     layout: 'vbox',
     xtype: 'playercont',
-    requires: ['Ext.Audio', 'Ext.Img'],
+    requires: ['Ext.Img'],
     
     config: {
+
         scrollable: 'vertical',
     	items: [
     	{
@@ -58,13 +59,14 @@ Ext.define('CBCRadioPlayer.view.CurrentlyPlaying', {
         },
         {
             xtype: 'audio',
-            id: 'curPlayingControls',
             preload: false,
             url: '',
             docked: 'bottom',
             hidden: true,
+	        cordovaAudio: null,
+            id: 'audioElement',
             isLive: false,
-            favInfo: null
+            favInfo: null,
         }
     	]
     },

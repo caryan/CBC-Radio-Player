@@ -6,11 +6,9 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 
     config: {
         refs: {
-        	CurPlayerContainer: 'playercont',
-        	PodCastsViewer: 'podcastsviewer',
-        	PodCastList: 'podcastlist',
-        	curPlayer: '#curPlayingControls',
-
+        	PodCastsViewer: '.podcastsviewer',
+        	PodCastList: '.podcastlist',
+        	audioElement: '#audioElement',
         },
         control: {
         	'localstationlist': {
@@ -33,6 +31,10 @@ Ext.define('CBCRadioPlayer.controller.Main', {
         	
         	}
        },
+       
+    getPlayerControl: function(){
+    	return this.getApplication().getController('CurrentlyPlaying')
+    },
 
 	startLocalStationStream: function(list, index, target, record) {
 		
@@ -42,12 +44,12 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 
 		audioURLs = record.data.audioURLs;
 
-		if (this.getCurPlayer().isPlaying()) {
-			this.getCurPlayer().stop();
-		}
-		this.getCurPlayer().setUrl(audioURLs[0]);
-		this.getCurPlayer().isLive = true;
-		this.getCurPlayer().favInfo = {
+		this.getPlayerControl().myStop()
+	
+		this.getAudioElement().setUrl(audioURLs[0]);
+		this.getAudioElement().streamURL = audioURLs[0];
+		this.getAudioElement().isLive = true;
+		this.getAudioElement().favInfo = {
 			displayName: 'Live from ' +  record.data.cityName,
 			isLive: true,
 			audioURLs: audioURLs,
@@ -55,8 +57,10 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 			imgLink: record.data.imgLink,
 			};
 		
-		this.getCurPlayer().play();
 
+		this.getPlayerControl().myPlay();
+		
+		//Move to the currently playing tab
 		Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
 
 	},
@@ -98,12 +102,12 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 			Ext.ComponentManager.get('showDescription').setHtml(record.data.content);
 			Ext.ComponentManager.get('showImage').setSrc(list.getStore().getImgLink());
 	
-			if (this.getCurPlayer().isPlaying()) {
-				this.getCurPlayer().stop();
-			}
-			this.getCurPlayer().setUrl(audioURL);
-			this.getCurPlayer().isLive = false;
-			this.getCurPlayer().favInfo = {
+			this.getPlayerControl().myStop();
+	
+			this.getAudioElement().setUrl(audioURL);
+			this.getAudioElement().streamURL = audioURL;
+			this.getAudioElement().isLive = false;
+			this.getAudioElement().favInfo = {
 				displayName: list.getTitle(),
 				isLive: false,
 				audioURLs: null,
@@ -112,8 +116,10 @@ Ext.define('CBCRadioPlayer.controller.Main', {
 				RSSFeed: list.getRSSFeed(),
 			};
 			
-			this.getCurPlayer().play();
-			
+			//Handle Cordova for Android with Cordova Media class		
+			this.getPlayerControl().myPlay();
+	
+			//Move to the currently playing tab
 			Ext.ComponentManager.get('mainTabPanel').setActiveItem(3);
 		}
 	},
